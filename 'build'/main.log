@@ -1,0 +1,1504 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.4.20)  27 SEP 2020 10:33
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2018-12-01>
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./thesisSetup.sty (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen103
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks17
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks18
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen114
+\Hy@linkcounter=\count101
+\Hy@pagecounter=\count102
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count103
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4393.
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count104
+ (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen115
+\Fld@menulength=\count105
+\Field@Width=\dimen116
+\Fld@charsize=\dimen117
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring ON on input line 6398.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+\Hy@abspage=\count106
+\c@Item=\count107
+\c@Hfootnote=\count108
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
+\Fld@listcount=\count109
+\c@bookmark@seq@number=\count110
+ (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
+)
+\Hy@SectionHShift=\skip46
+) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen118
+\lightrulewidth=\dimen119
+\cmidrulewidth=\dimen120
+\belowrulesep=\dimen121
+\belowbottomsep=\dimen122
+\aboverulesep=\dimen123
+\abovetopsep=\dimen124
+\cmidrulesep=\dimen125
+\cmidrulekern=\dimen126
+\defaultaddspace=\dimen127
+\@cmidla=\count111
+\@cmidlb=\count112
+\@aboverulesep=\dimen128
+\@belowrulesep=\dimen129
+\@thisruleclass=\count113
+\@lastruleclass=\count114
+\@thisrulewidth=\dimen130
+) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+\Gm@cnth=\count115
+\Gm@cntv=\count116
+\c@Gm@tempcnt=\count117
+\Gm@bindingoffset=\dimen131
+\Gm@wd@mp=\dimen132
+\Gm@odd@mp=\dimen133
+\Gm@even@mp=\dimen134
+\Gm@layoutwidth=\dimen135
+\Gm@layoutheight=\dimen136
+\Gm@layouthoffset=\dimen137
+\Gm@layoutvoffset=\dimen138
+\Gm@dimlist=\toks22
+) (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box29
+\beforetitleunit=\skip47
+\aftertitleunit=\skip48
+\ttl@plus=\dimen139
+\ttl@minus=\dimen140
+\ttl@toksa=\toks23
+\titlewidth=\dimen141
+\titlewidthlast=\dimen142
+\titlewidthfirst=\dimen143
+) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count118
+\float@exts=\toks24
+\float@box=\box30
+\@float@everytoks=\toks25
+\@floatcapt=\box31
+) (/usr/share/texlive/texmf-dist/tex/latex/layouts/layouts.sty
+Package: layouts 2009/09/02 v2.6d graphical depiction of document elements
+\l@ylen=\skip49
+\layoutsbox=\box32
+\l@youtunitlength=\skip50
+\l@youtlinethick=\skip51
+\l@youtlinethickii=\skip52
+\l@ysetupparskip=\skip53
+\l@ysetupbaselineskip=\skip54
+\l@yonem=\skip55
+\l@yonex=\skip56
+\l@ylmarg=\skip57
+\l@yrmarg=\skip58
+\l@yitmindent=\skip59
+\l@ylblwidth=\skip60
+\l@ylblsep=\skip61
+\l@ylparindent=\skip62
+\l@ytsep=\skip63
+\l@ypskip=\skip64
+\l@yptsep=\skip65
+\l@ypsep=\skip66
+\l@yitmsep=\skip67
+\l@ytok=\toks26
+\l@youtpw=\count119
+\l@youtph=\count120
+\l@youthpi=\count121
+\l@youthpii=\count122
+\l@youthpiii=\count123
+\l@youthpiv=\count124
+\l@youthpv=\count125
+\l@youthpvi=\count126
+\l@youthpvii=\count127
+\l@youtparskip=\count128
+\l@youtvpi=\count129
+\l@youtvpii=\count130
+\l@youtvpiii=\count131
+\l@youtvpiv=\count132
+\l@youtvpv=\count133
+\l@youtvpvi=\count134
+\l@youtvpvii=\count135
+\l@youthdo=\count136
+\l@youthdi=\count137
+\l@youthdii=\count138
+\l@youthdiii=\count139
+\l@youthdiv=\count140
+\l@youthdv=\count141
+\l@youthdvi=\count142
+\l@youthdvii=\count143
+\l@youtvdo=\count144
+\l@youtvdi=\count145
+\l@youtvdii=\count146
+\l@youtvdiii=\count147
+\l@youtvdiv=\count148
+\l@youtvdv=\count149
+\l@youtvdvi=\count150
+\l@youtvdvii=\count151
+\l@youtvdviii=\count152
+\l@youtxci=\count153
+\l@youtxcii=\count154
+\l@youtxciii=\count155
+\l@youtxciv=\count156
+\l@youtxcv=\count157
+\l@youtxcvi=\count158
+\l@youtyci=\count159
+\l@youtycii=\count160
+\l@youtyciii=\count161
+\l@youtyciv=\count162
+\l@youtycv=\count163
+\l@youtycvi=\count164
+\l@youtycvii=\count165
+\l@youtycviii=\count166
+\l@youtxco=\count167
+\l@youtyco=\count168
+\l@ytempdima=\skip68
+\stockwidth=\skip69
+\stockheight=\skip70
+\trimedge=\skip71
+\trimtop=\skip72
+\uppermargin=\skip73
+\spinemargin=\skip74
+) (/usr/share/texlive/texmf-dist/tex/latex/changepage/changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count169
+\cp@tempcnt=\count170
+) (/usr/share/texlive/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box33
+)
+(/usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+Package: glossaries 2019/01/06 v4.42 (NLCT)
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+ (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks27
+\XKV@tempa@toks=\toks28
+)
+\XKV@depth=\count171
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (/usr/share/texlive/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
+Package: mfirstuc 2017/11/14 v2.06 (NLCT)
+ (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count172
+)
+\@glsmfirst=\toks29
+\@glsmrest=\toks30
+) (/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/xfor/xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+) (/usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-base.sty
+Package: datatool-base 2018/12/07 v2.31 (NLCT)
+ (/usr/share/texlive/texmf-dist/tex/latex/substr/substr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count173
+) (/usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-fp.sty
+Package: datatool-fp 2018/12/07 v2.31 (NLCT)
+ (/usr/share/texlive/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+ `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich (/usr/share/texlive/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count174
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count175
+\FP@xia=\count176
+\FP@xib=\count177
+\FP@xfa=\count178
+\FP@xfb=\count179
+\FP@rega=\count180
+\FP@regb=\count181
+\FP@regs=\count182
+\FP@times=\count183
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count184
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks31
+\@dtl@tmpcount=\count185
+\dtl@tmplength=\skip75
+\dtl@sortresult=\count186
+\@dtl@numgrpsepcount=\count187
+\@dtl@datatype=\count188
+\dtl@codeA=\count189
+\dtl@codeB=\count190
+\@dtl@foreach@level=\count191
+) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-307.sty
+Package: glossaries-compatible-307 2019/01/06 v4.42 (NLCT)
+)
+\gls@level=\count192
+\@gls@tmpb=\toks32
+\gls@tmplen=\skip76
+\glskeylisttok=\toks33
+\glslabeltok=\toks34
+\glsshorttok=\toks35
+\glslongtok=\toks36
+ (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
+Package: glossary-hypernav 2019/01/06 v4.42 (NLCT)
+) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
+Package: glossary-list 2019/01/06 v4.42 (NLCT)
+\glslistdottedwidth=\skip77
+) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
+Package: glossary-long 2019/01/06 v4.42 (NLCT)
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
+\LTleft=\skip78
+\LTright=\skip79
+\LTpre=\skip80
+\LTpost=\skip81
+\LTchunksize=\count193
+\LTcapwidth=\dimen144
+\LT@head=\box34
+\LT@firsthead=\box35
+\LT@foot=\box36
+\LT@lastfoot=\box37
+\LT@cols=\count194
+\LT@rows=\count195
+\c@LT@tables=\count196
+\c@LT@chunks=\count197
+\LT@p@ftn=\toks37
+)
+\glsdescwidth=\skip82
+\glspagelistwidth=\skip83
+) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
+Package: glossary-super 2019/01/06 v4.42 (NLCT)
+
+(/usr/share/texlive/texmf-dist/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2004/02/20 v4.1e the supertabular environment
+\c@tracingst=\count198
+\ST@wd=\dimen145
+\ST@rightskip=\skip84
+\ST@leftskip=\skip85
+\ST@parfillskip=\skip86
+\ST@pageleft=\dimen146
+\ST@headht=\dimen147
+\ST@tailht=\dimen148
+\ST@pagesofar=\dimen149
+\ST@pboxht=\dimen150
+\ST@lineht=\dimen151
+\ST@stretchht=\dimen152
+\ST@prevht=\dimen153
+\ST@toadd=\dimen154
+\ST@dimen=\dimen155
+\ST@pbox=\box38
+)) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
+Package: glossary-tree 2019/01/06 v4.42 (NLCT)
+\glstreeindent=\skip87
+))
+\glswrite=\write3
+\glo@acronym@file=\write4
+\openout4 = `main.acn'.
+
+Package glossaries Info: Writing glossary file main.acn on input line 22.
+ (./abbreviations.tex) (/usr/share/texlive/texmf-dist/tex/latex/pdfcomment/pdfcomment.sty
+Package: pdfcomment 2018/11/01 pdfcomment.sty v2.4a - Josef Kleber (C) 2008-2012, 2015-2016, 2018
+\c@pc@count@i=\count199
+\c@pc@count@ii=\count266
+\c@pc@count@iii=\count267
+\c@pc@count@iv=\count268
+\pc@mathannot@box=\box39
+\pc@nullbox=\box40
+\pc@dima=\skip88
+\pc@dimb=\skip89
+\pc@Sposx=\skip90
+\pc@Sposy=\skip91
+\pc@Eposx=\skip92
+\pc@Eposy=\skip93
+\pc@column=\skip94
+\pc@box@width=\skip95
+\pc@box@height=\skip96
+\pc@box@depth=\skip97
+ (/usr/share/texlive/texmf-dist/tex/latex/datetime2/datetime2.sty
+Package: datetime2 2018/07/20 v1.5.3 (NLCT) date and time formats
+ (/usr/share/texlive/texmf-dist/tex/latex/tracklang/tracklang.sty
+Package: tracklang 2018/05/13 v1.3.6 (NLCT) Track Languages
+ (/usr/share/texlive/texmf-dist/tex/generic/tracklang/tracklang.tex))) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/zref-savepos.sty
+Package: zref-savepos 2018/11/21 v2.27 Module savepos for zref (HO)
+ (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/zref-base.sty
+Package: zref-base 2018/11/21 v2.27 Module base for zref (HO)
+Package zref Info: New property list: main on input line 759.
+Package zref Info: New property: default on input line 760.
+Package zref Info: New property: page on input line 761.
+)
+Package zref Info: New property list: savepos on input line 80.
+Package zref Info: New property: posx on input line 81.
+Package zref Info: New property: posy on input line 82.
+)
+\c@zref@unique=\count269
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count270
+\calc@Bcount=\count271
+\calc@Adimen=\dimen156
+\calc@Bdimen=\dimen157
+\calc@Askip=\skip98
+\calc@Bskip=\skip99
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count272
+\calc@Cskip=\skip100
+) (/usr/share/texlive/texmf-dist/tex/latex/marginnote/marginnote.sty
+Package: marginnote 2018/08/09 v1.4b non floating margin notes for LaTeX
+\c@mn@abspage=\count273
+) (/usr/share/texlive/texmf-dist/tex/latex/bezos/soulpos.sty
+Package: soulpos 2012/02/25 v1.1 Fancy underlining
+\ulp@subcnt=\count274
+\ulp@cnt=\count275
+\ulp@out=\write5
+\ulp@in=\read1
+\ulwidth=\dimen158
+)
+
+Package hyperref Warning: Option `pdftex' has already been used,
+(hyperref)                setting the option has no effect on input line 1369.
+
+Package zref Info: New property list: pdfcomment on input line 2735.
+Package zref Info: New property: PCPDFOBJID on input line 2736.
+) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/02/04 v3.8 Customized lists
+\labelindent=\skip101
+\enit@outerparindent=\dimen159
+\enit@toks=\toks38
+\enit@inbox=\box41
+\enit@count@id=\count276
+\enitdp@description=\count277
+) (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip102
+\bibsep=\skip103
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count278
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen160
+\captionmargin@=\dimen161
+\captionwidth=\dimen162
+\caption@tempdima=\dimen163
+\caption@indent=\dimen164
+\caption@parindent=\dimen165
+\caption@hangindent=\dimen166
+)
+\c@caption@flags=\count279
+\c@ContinuedFloat=\count280
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2018/08/26 v1.4-95 longtable captions (AR)
+)
+Package caption Info: supertabular package is loaded.
+Package caption Info: threeparttable package is loaded.
+)
+\c@saveenumerate=\count281
+\SpaceAfterUnit=\skip104
+)
+   defining Unicode char U+2060 (decimal 8288)
+ ('build'/main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count282
+\scratchdimen=\dimen167
+\scratchbox=\box42
+\nofMPsegments=\count283
+\nofMParguments=\count284
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count285
+\MPscratchDim=\dimen168
+\MPnumerator=\count286
+\makeMPintoPDFobject=\count287
+\everyMPtoPDFconversion=\toks40
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+ (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+\AtBeginShipoutBox=\box43
+
+
+Package hyperref Warning: Height of page (\stockheight) is invalid (0.0pt),
+(hyperref)                using 11in.
+
+Package hyperref Info: Link coloring ON on input line 18.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count288
+)
+LaTeX Info: Redefining \ref on input line 18.
+LaTeX Info: Redefining \pageref on input line 18.
+LaTeX Info: Redefining \nameref on input line 18.
+ ('build'/main.out) ('build'/main.out)
+\@outlinefile=\write6
+\openout6 = `main.out'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(65.29907pt, 483.69684pt, 65.29909pt)
+* v-part:(T,H,B)=(25.49365pt, 731.23582pt, 38.24051pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=483.69684pt
+* \textheight=731.23582pt
+* \oddsidemargin=-6.97092pt
+* \evensidemargin=-6.97092pt
+* \topmargin=-83.77634pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Package layouts Warning: Layout scale set to 0.5 on input line 18.
+
+Package soulpos Info: Loading soulutf8 on input line 18.
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/soulutf8.sty
+Package: soulutf8 2016/05/16 v1.1 Permit use of UTF-8 characters in soul (HO)
+ (/usr/share/texlive/texmf-dist/tex/latex/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks41
+\SOUL@lasttoken=\toks42
+\SOUL@cmds=\toks43
+\SOUL@buffer=\toks44
+\SOUL@token=\toks45
+\SOUL@spaceskip=\skip105
+\SOUL@ttwidth=\dimen169
+\SOUL@uldp=\dimen170
+\SOUL@ulht=\dimen171
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+ [1
+
+\openout3 = `main.ist'.
+
+\openout5 = `main.upa'.
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./chapters/abstract.tex)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.29 	\chapter
+              *{Dedication} [1
+
+]
+Package marginnote Info: Using workaround for absolute page number on input line 29.
+ [2
+
+] [3
+
+] [4
+
+] ('build'/main.toc
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 23.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 23.
+ [5
+
+])
+\tf@toc=\write7
+\openout7 = `main.toc'.
+
+ [6]
+Chapter 1.
+(./chapters/introduction.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gls' on input line 9.
+
+[7
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gls' on input line 17.
+
+
+Package natbib Warning: Citation `schimel2012' on page 8 undefined on input line 23.
+
+[8]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gls' on input line 34.
+
+[9]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gls' on input line 40.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--50
+
+ []
+
+[10]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gls' on input line 60.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gls' on input line 62.
+
+
+Package natbib Warning: Citation `' on page 11 undefined on input line 68.
+
+[11]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gls' on input line 71.
+
+
+Package natbib Warning: Citation `soleimani2019 ' on page 12 undefined on input line 79.
+
+
+Package natbib Warning: Citation `bradley2006' on page 12 undefined on input line 84.
+
+
+Package natbib Warning: Citation `treseder2004' on page 12 undefined on input line 84.
+
+
+Package natbib Warning: Citation `zhang2019' on page 12 undefined on input line 84.
+
+
+Package natbib Warning: Citation `corkidi2002' on page 12 undefined on input line 84.
+
+
+Package natbib Warning: Citation `rillig2006' on page 12 undefined on input line 84.
+
+
+Package natbib Warning: Citation `leifheit2014' on page 12 undefined on input line 84.
+
+
+Package natbib Warning: Citation `rillig2002' on page 12 undefined on input line 84.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--86
+
+ []
+
+[12]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gls' on input line 87.
+
+
+Package natbib Warning: Citation `barreto2009a' on page 13 undefined on input line 94.
+
+[13]
+Overfull \hbox (0.43092pt too wide) in paragraph at lines 97--97
+\OT1/cmr/bx/n/17.28 strate de-com-po-si-tion as es-sen-tial com-po-nents in un-
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gls' on input line 97.
+
+[14]
+Package hyperref Info: bookmark level for unknown lpcsec defaults to 0 on input line 112.
+) [15] [16]
+Chapter 2.
+(./chapters/materials_and_methods.tex
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 12.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 12.
+ [17
+
+] (./tables/substrate_properties_preliminary.tex) [18] (./tables/MRE_composition.tex)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 39.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 39.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 39.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--43
+
+ []
+
+[19]
+LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <14.4> not available
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 55.
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
+
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
+ []
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 102--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--121
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 137--139
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--143
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--154
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--159
+
+ []
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 167--169
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
+
+ []
+
+) [24]
+Chapter 3.
+(./chapters/results.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gls' on input line 36.
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 38.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
+
+ []
+
+<thesis_figures/preliminary/control/Resp.pdf, id=1188, 511.39026pt x 264.67256pt>
+File: thesis_figures/preliminary/control/Resp.pdf Graphic file (type pdf)
+<use thesis_figures/preliminary/control/Resp.pdf>
+Package pdftex.def Info: thesis_figures/preliminary/control/Resp.pdf  used on input line 44.
+(pdftex.def)             Requested size: 409.11276pt x 211.73833pt.
+[25
+
+]
+<thesis_figures/preliminary/Cum_Resp_CON.pdf, id=1195, 501.71347pt x 264.67256pt>
+File: thesis_figures/preliminary/Cum_Resp_CON.pdf Graphic file (type pdf)
+<use thesis_figures/preliminary/Cum_Resp_CON.pdf>
+Package pdftex.def Info: thesis_figures/preliminary/Cum_Resp_CON.pdf  used on input line 51.
+(pdftex.def)             Requested size: 401.37132pt x 211.73833pt.
+<thesis_figures/preliminary/control/MBC.pdf, id=1197, 512.69536pt x 264.67256pt>
+File: thesis_figures/preliminary/control/MBC.pdf Graphic file (type pdf)
+<use thesis_figures/preliminary/control/MBC.pdf>
+Package pdftex.def Info: thesis_figures/preliminary/control/MBC.pdf  used on input line 60.
+(pdftex.def)             Requested size: 410.15683pt x 211.73833pt.
+ [26 <./thesis_figures/preliminary/control/Resp.pdf> <./thesis_figures/preliminary/Cum_Resp_CON.pdf
+
+pdfTeX warning: pdflatex (file ./thesis_figures/preliminary/Cum_Resp_CON.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<thesis_figures/preliminary/control/WEOC.pdf, id=1301, 512.69536pt x 265.81357pt>
+File: thesis_figures/preliminary/control/WEOC.pdf Graphic file (type pdf)
+<use thesis_figures/preliminary/control/WEOC.pdf>
+Package pdftex.def Info: thesis_figures/preliminary/control/WEOC.pdf  used on input line 70.
+(pdftex.def)             Requested size: 410.15683pt x 212.65114pt.
+ [27 <./thesis_figures/preliminary/control/MBC.pdf> <./thesis_figures/preliminary/control/WEOC.pdf
+
+pdfTeX warning: pdflatex (file ./thesis_figures/preliminary/control/WEOC.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<thesis_figures/preliminary/control/HWEC.pdf, id=1401, 517.77345pt x 267.55856pt>
+File: thesis_figures/preliminary/control/HWEC.pdf Graphic file (type pdf)
+<use thesis_figures/preliminary/control/HWEC.pdf>
+Package pdftex.def Info: thesis_figures/preliminary/control/HWEC.pdf  used on input line 82.
+(pdftex.def)             Requested size: 414.21931pt x 214.04713pt.
+<thesis_figures/preliminary/control//HWES-C.pdf, id=1402, 517.77345pt x 264.67256pt>
+File: thesis_figures/preliminary/control//HWES-C.pdf Graphic file (type pdf)
+<use thesis_figures/preliminary/control//HWES-C.pdf>
+Package pdftex.def Info: thesis_figures/preliminary/control//HWES-C.pdf  used on input line 89.
+(pdftex.def)             Requested size: 414.21931pt x 211.73833pt.
+ [28 <./thesis_figures/preliminary/control/HWEC.pdf> <./thesis_figures/preliminary/control//HWES-C.pdf
+
+pdfTeX warning: pdflatex (file ./thesis_figures/preliminary/control//HWES-C.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<thesis_figures/preliminary/control/Erg.pdf, id=1510, 511.39026pt x 264.67256pt>
+File: thesis_figures/preliminary/control/Erg.pdf Graphic file (type pdf)
+<use thesis_figures/preliminary/control/Erg.pdf>
+Package pdftex.def Info: thesis_figures/preliminary/control/Erg.pdf  used on input line 99.
+(pdftex.def)             Requested size: 409.11276pt x 211.73833pt.
+<thesis_figures/preliminary/control/Erg-to-MBC_.pdf, id=1511, 491.11473pt x 264.67256pt>
+File: thesis_figures/preliminary/control/Erg-to-MBC_.pdf Graphic file (type pdf)
+<use thesis_figures/preliminary/control/Erg-to-MBC_.pdf>
+Package pdftex.def Info: thesis_figures/preliminary/control/Erg-to-MBC_.pdf  used on input line 106.
+(pdftex.def)             Requested size: 392.89232pt x 211.73833pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gls' on input line 112.
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 116.
+
+<thesis_figures/preliminary/treated/Resp.pdf, id=1516, 350.84808pt x 298.6952pt>
+File: thesis_figures/preliminary/treated/Resp.pdf Graphic file (type pdf)
+<use thesis_figures/preliminary/treated/Resp.pdf>
+Package pdftex.def Info: thesis_figures/preliminary/treated/Resp.pdf  used on input line 123.
+(pdftex.def)             Requested size: 483.69684pt x 411.79872pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--126
+
+ []
+
+[29 <./thesis_figures/preliminary/control/Erg.pdf> <./thesis_figures/preliminary/control/Erg-to-MBC_.pdf
+
+pdfTeX warning: pdflatex (file ./thesis_figures/preliminary/control/Erg-to-MBC_.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [30]
+<thesis_figures/preliminary/control_normalized/Resp.pdf, id=1623, 350.84808pt x 298.6952pt>
+File: thesis_figures/preliminary/control_normalized/Resp.pdf Graphic file (type pdf)
+<use thesis_figures/preliminary/control_normalized/Resp.pdf>
+Package pdftex.def Info: thesis_figures/preliminary/control_normalized/Resp.pdf  used on input line 130.
+(pdftex.def)             Requested size: 483.69684pt x 411.79872pt.
+ [31 <./thesis_figures/preliminary/treated/Resp.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 135--137
+
+ []
+
+[32 <./thesis_figures/preliminary/control_normalized/Resp.pdf>]
+<thesis_figures/preliminary/treated/MBC.pdf, id=1754, 346.44318pt x 298.6952pt>
+File: thesis_figures/preliminary/treated/MBC.pdf Graphic file (type pdf)
+<use thesis_figures/preliminary/treated/MBC.pdf>
+Package pdftex.def Info: thesis_figures/preliminary/treated/MBC.pdf  used on input line 140.
+(pdftex.def)             Requested size: 483.69684pt x 417.03554pt.
+<thesis_figures/preliminary/control_normalized/MBC.pdf, id=1755, 346.44318pt x 298.6952pt>
+File: thesis_figures/preliminary/control_normalized/MBC.pdf Graphic file (type pdf)
+<use thesis_figures/preliminary/control_normalized/MBC.pdf>
+Package pdftex.def Info: thesis_figures/preliminary/control_normalized/MBC.pdf  used on input line 147.
+(pdftex.def)             Requested size: 483.69684pt x 417.03554pt.
+ [33 <./thesis_figures/preliminary/treated/MBC.pdf>]
+<thesis_figures/preliminary/treated/WEOC.pdf, id=1810, 346.44318pt x 298.6952pt>
+File: thesis_figures/preliminary/treated/WEOC.pdf Graphic file (type pdf)
+<use thesis_figures/preliminary/treated/WEOC.pdf>
+Package pdftex.def Info: thesis_figures/preliminary/treated/WEOC.pdf  used on input line 159.
+(pdftex.def)             Requested size: 483.69684pt x 417.03554pt.
+ [34 <./thesis_figures/preliminary/control_normalized/MBC.pdf>]
+<thesis_figures/preliminary/control_normalized/WEOC.pdf, id=1867, 346.44318pt x 298.6952pt>
+File: thesis_figures/preliminary/control_normalized/WEOC.pdf Graphic file (type pdf)
+<use thesis_figures/preliminary/control_normalized/WEOC.pdf>
+Package pdftex.def Info: thesis_figures/preliminary/control_normalized/WEOC.pdf  used on input line 168.
+(pdftex.def)             Requested size: 346.44232pt x 298.69446pt.
+ [35 <./thesis_figures/preliminary/treated/WEOC.pdf>]
+<thesis_figures/preliminary/treated/HWEC.pdf, id=1924, 350.84808pt x 298.6952pt>
+File: thesis_figures/preliminary/treated/HWEC.pdf Graphic file (type pdf)
+<use thesis_figures/preliminary/treated/HWEC.pdf>
+Package pdftex.def Info: thesis_figures/preliminary/treated/HWEC.pdf  used on input line 182.
+(pdftex.def)             Requested size: 483.69684pt x 411.79872pt.
+ [36 <./thesis_figures/preliminary/control_normalized/WEOC.pdf>]
+<thesis_figures/preliminary/control_normalized/HWEC.pdf, id=1980, 345.82057pt x 295.11757pt>
+File: thesis_figures/preliminary/control_normalized/HWEC.pdf Graphic file (type pdf)
+<use thesis_figures/preliminary/control_normalized/HWEC.pdf>
+Package pdftex.def Info: thesis_figures/preliminary/control_normalized/HWEC.pdf  used on input line 189.
+(pdftex.def)             Requested size: 483.69684pt x 412.7835pt.
+ [37 <./thesis_figures/preliminary/treated/HWEC.pdf>]
+<thesis_figures/preliminary/treated/HWES-C.pdf, id=2034, 350.84808pt x 298.6952pt>
+File: thesis_figures/preliminary/treated/HWES-C.pdf Graphic file (type pdf)
+<use thesis_figures/preliminary/treated/HWES-C.pdf>
+Package pdftex.def Info: thesis_figures/preliminary/treated/HWES-C.pdf  used on input line 196.
+(pdftex.def)             Requested size: 483.69684pt x 411.79872pt.
+ [38 <./thesis_figures/preliminary/control_normalized/HWEC.pdf>]
+<thesis_figures/preliminary/control_normalized/HWES-C.pdf, id=2090, 350.84808pt x 298.6952pt>
+File: thesis_figures/preliminary/control_normalized/HWES-C.pdf Graphic file (type pdf)
+<use thesis_figures/preliminary/control_normalized/HWES-C.pdf>
+Package pdftex.def Info: thesis_figures/preliminary/control_normalized/HWES-C.pdf  used on input line 204.
+(pdftex.def)             Requested size: 483.69684pt x 411.79872pt.
+ [39 <./thesis_figures/preliminary/treated/HWES-C.pdf>]
+<thesis_figures/preliminary/treated/Erg.pdf, id=2150, 340.18756pt x 296.29639pt>
+File: thesis_figures/preliminary/treated/Erg.pdf Graphic file (type pdf)
+<use thesis_figures/preliminary/treated/Erg.pdf>
+Package pdftex.def Info: thesis_figures/preliminary/treated/Erg.pdf  used on input line 214.
+(pdftex.def)             Requested size: 483.69684pt x 421.32703pt.
+ [40 <./thesis_figures/preliminary/control_normalized/HWES-C.pdf>]
+<thesis_figures/preliminary/treated/Erg-to-MBC.pdf, id=2206, 445.521pt x 414.50694pt>
+File: thesis_figures/preliminary/treated/Erg-to-MBC.pdf Graphic file (type pdf)
+<use thesis_figures/preliminary/treated/Erg-to-MBC.pdf>
+Package pdftex.def Info: thesis_figures/preliminary/treated/Erg-to-MBC.pdf  used on input line 221.
+(pdftex.def)             Requested size: 483.69684pt x 450.04529pt.
+ [41 <./thesis_figures/preliminary/treated/Erg.pdf>] [42 <./thesis_figures/preliminary/treated/Erg-to-MBC.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gls' on input line 237.
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 242.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--249
+
+ []
+
+<thesis_figures/main_incubation/control/Resp.pdf, id=2331, 504.38312pt x 282.06566pt>
+File: thesis_figures/main_incubation/control/Resp.pdf Graphic file (type pdf)
+<use thesis_figures/main_incubation/control/Resp.pdf>
+Package pdftex.def Info: thesis_figures/main_incubation/control/Resp.pdf  used on input line 252.
+(pdftex.def)             Requested size: 403.50703pt x 225.65282pt.
+[43]
+<thesis_figures/main_incubation/control/MBC.pdf, id=2339, 517.1496pt x 282.06566pt>
+File: thesis_figures/main_incubation/control/MBC.pdf Graphic file (type pdf)
+<use thesis_figures/main_incubation/control/MBC.pdf>
+Package pdftex.def Info: thesis_figures/main_incubation/control/MBC.pdf  used on input line 259.
+(pdftex.def)             Requested size: 413.72023pt x 225.65282pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--262
+
+ []
+
+[44 <./thesis_figures/main_incubation/control/Resp.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 264--265
+
+ []
+
+<thesis_figures/main_incubation/control/WEOC.pdf, id=2397, 510.76634pt x 282.06566pt>
+File: thesis_figures/main_incubation/control/WEOC.pdf Graphic file (type pdf)
+<use thesis_figures/main_incubation/control/WEOC.pdf>
+Package pdftex.def Info: thesis_figures/main_incubation/control/WEOC.pdf  used on input line 269.
+(pdftex.def)             Requested size: 408.61362pt x 225.65282pt.
+[45 <./thesis_figures/main_incubation/control/MBC.pdf>]
+<thesis_figures/main_incubation/control/HWES.pdf, id=2463, 510.76634pt x 282.06566pt>
+File: thesis_figures/main_incubation/control/HWES.pdf Graphic file (type pdf)
+<use thesis_figures/main_incubation/control/HWES.pdf>
+Package pdftex.def Info: thesis_figures/main_incubation/control/HWES.pdf  used on input line 286.
+(pdftex.def)             Requested size: 408.61362pt x 225.65282pt.
+ [46 <./thesis_figures/main_incubation/control/WEOC.pdf>]
+<thesis_figures/main_incubation/control/Cum_Resp.pdf, id=2522, 510.76634pt x 282.06566pt>
+File: thesis_figures/main_incubation/control/Cum_Resp.pdf Graphic file (type pdf)
+<use thesis_figures/main_incubation/control/Cum_Resp.pdf>
+Package pdftex.def Info: thesis_figures/main_incubation/control/Cum_Resp.pdf  used on input line 294.
+(pdftex.def)             Requested size: 408.61362pt x 225.65282pt.
+<thesis_figures/main_incubation/control/Erg.pdf, id=2525, 504.38312pt x 282.06566pt>
+File: thesis_figures/main_incubation/control/Erg.pdf Graphic file (type pdf)
+<use thesis_figures/main_incubation/control/Erg.pdf>
+Package pdftex.def Info: thesis_figures/main_incubation/control/Erg.pdf  used on input line 301.
+(pdftex.def)             Requested size: 403.50703pt x 225.65282pt.
+ [47 <./thesis_figures/main_incubation/control/HWES.pdf> <./thesis_figures/main_incubation/control/Cum_Resp.pdf
+
+pdfTeX warning: pdflatex (file ./thesis_figures/main_incubation/control/Cum_Resp.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<thesis_figures/main_incubation/control/Erg-to-MBC.pdf, id=2620, 511.62894pt x 282.06566pt>
+File: thesis_figures/main_incubation/control/Erg-to-MBC.pdf Graphic file (type pdf)
+<use thesis_figures/main_incubation/control/Erg-to-MBC.pdf>
+Package pdftex.def Info: thesis_figures/main_incubation/control/Erg-to-MBC.pdf  used on input line 309.
+(pdftex.def)             Requested size: 409.3037pt x 225.65282pt.
+ [48 <./thesis_figures/main_incubation/control/Erg.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 313--316
+
+ []
+
+(./thesis_figures/main_incubation/control/AS.tex) (./tables/baseline.tex
+Underfull \hbox (badness 10000) in paragraph at lines 321--1
+
+ []
+
+
+Overfull \hbox (43.20453pt too wide) in paragraph at lines 8--26
+ [] 
+ []
+
+) [49 <./thesis_figures/main_incubation/control/Erg-to-MBC.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 323--328
+
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gls' on input line 332.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--335
+
+ []
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 338.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--342
+
+ []
+
+[50]
+<thesis_figures/main_incubation/MRE_treated/Resp.pdf, id=2739, 517.1496pt x 281.53848pt>
+File: thesis_figures/main_incubation/MRE_treated/Resp.pdf Graphic file (type pdf)
+<use thesis_figures/main_incubation/MRE_treated/Resp.pdf>
+Package pdftex.def Info: thesis_figures/main_incubation/MRE_treated/Resp.pdf  used on input line 346.
+(pdftex.def)             Requested size: 413.72023pt x 225.2311pt.
+
+Overfull \hbox (8.29102pt too wide) in paragraph at lines 350--354
+\OT1/cmr/m/n/12 the av-er-age weekly cu-mu-la-tive res-pi-ra-tion for all three LTTs (Ta-ble [][]3.3[][]) rose from 852 $\OML/cmm/m/it/12 mg CO[]$[]$C \OMS/cmsy/m/n/12 ^^C
+ []
+
+<thesis_figures/test/Cum_Resp.pdf, id=2741, 517.1496pt x 282.06566pt>
+File: thesis_figures/test/Cum_Resp.pdf Graphic file (type pdf)
+<use thesis_figures/test/Cum_Resp.pdf>
+Package pdftex.def Info: thesis_figures/test/Cum_Resp.pdf  used on input line 358.
+(pdftex.def)             Requested size: 413.72023pt x 225.65282pt.
+[51 <./thesis_figures/main_incubation/MRE_treated/Resp.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
+
+ []
+
+<thesis_figures/main_incubation/MRE_treated/MBC.pdf, id=2801, 517.1496pt x 280.87372pt>
+File: thesis_figures/main_incubation/MRE_treated/MBC.pdf Graphic file (type pdf)
+<use thesis_figures/main_incubation/MRE_treated/MBC.pdf>
+Package pdftex.def Info: thesis_figures/main_incubation/MRE_treated/MBC.pdf  used on input line 372.
+(pdftex.def)             Requested size: 413.72023pt x 224.69926pt.
+[52 <./thesis_figures/test/Cum_Resp.pdf>] (./thesis_figures/test/microbial_features.tex
+Underfull \hbox (badness 10000) in paragraph at lines 377--18
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
+
+ []
+
+[53 <./thesis_figures/main_incubation/MRE_treated/MBC.pdf>]
+<thesis_figures/main_incubation/MRE_treated/WEOC.pdf, id=2918, 517.1496pt x 280.87372pt>
+File: thesis_figures/main_incubation/MRE_treated/WEOC.pdf Graphic file (type pdf)
+<use thesis_figures/main_incubation/MRE_treated/WEOC.pdf>
+Package pdftex.def Info: thesis_figures/main_incubation/MRE_treated/WEOC.pdf  used on input line 399.
+(pdftex.def)             Requested size: 413.72023pt x 224.69926pt.
+ [54]
+<thesis_figures/main_incubation/MRE_treated/weoc_pct_change.pdf, id=2924, 533.97307pt x 277.04692pt>
+File: thesis_figures/main_incubation/MRE_treated/weoc_pct_change.pdf Graphic file (type pdf)
+<use thesis_figures/main_incubation/MRE_treated/weoc_pct_change.pdf>
+Package pdftex.def Info: thesis_figures/main_incubation/MRE_treated/weoc_pct_change.pdf  used on input line 406.
+(pdftex.def)             Requested size: 427.17903pt x 221.63783pt.
+ [55 <./thesis_figures/main_incubation/MRE_treated/WEOC.pdf> <./thesis_figures/main_incubation/MRE_treated/weoc_pct_change.pdf
+
+pdfTeX warning: pdflatex (file ./thesis_figures/main_incubation/MRE_treated/weoc_pct_change.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<thesis_figures/main_incubation/MRE_treated/HWES.pdf, id=3027, 510.76634pt x 282.06566pt>
+File: thesis_figures/main_incubation/MRE_treated/HWES.pdf Graphic file (type pdf)
+<use thesis_figures/main_incubation/MRE_treated/HWES.pdf>
+Package pdftex.def Info: thesis_figures/main_incubation/MRE_treated/HWES.pdf  used on input line 418.
+(pdftex.def)             Requested size: 408.61362pt x 225.65282pt.
+<thesis_figures/main_incubation/control_normalized/HWES.pdf, id=3028, 510.76634pt x 284.87955pt>
+File: thesis_figures/main_incubation/control_normalized/HWES.pdf Graphic file (type pdf)
+<use thesis_figures/main_incubation/control_normalized/HWES.pdf>
+Package pdftex.def Info: thesis_figures/main_incubation/control_normalized/HWES.pdf  used on input line 425.
+(pdftex.def)             Requested size: 408.61362pt x 227.90393pt.
+ [56 <./thesis_figures/main_incubation/MRE_treated/HWES.pdf>]
+<thesis_figures/main_incubation/MRE_treated/MBN.pdf, id=3075, 510.76634pt x 282.06566pt>
+File: thesis_figures/main_incubation/MRE_treated/MBN.pdf Graphic file (type pdf)
+<use thesis_figures/main_incubation/MRE_treated/MBN.pdf>
+Package pdftex.def Info: thesis_figures/main_incubation/MRE_treated/MBN.pdf  used on input line 438.
+(pdftex.def)             Requested size: 408.61362pt x 225.65282pt.
+ [57 <./thesis_figures/main_incubation/control_normalized/HWES.pdf>]
+<thesis_figures/main_incubation/MRE_treated/C_N_ratio.pdf, id=3121, 472.26312pt x 282.06566pt>
+File: thesis_figures/main_incubation/MRE_treated/C_N_ratio.pdf Graphic file (type pdf)
+<use thesis_figures/main_incubation/MRE_treated/C_N_ratio.pdf>
+Package pdftex.def Info: thesis_figures/main_incubation/MRE_treated/C_N_ratio.pdf  used on input line 445.
+(pdftex.def)             Requested size: 377.811pt x 225.65282pt.
+ [58 <./thesis_figures/main_incubation/MRE_treated/MBN.pdf> <./thesis_figures/main_incubation/MRE_treated/C_N_ratio.pdf
+
+pdfTeX warning: pdflatex (file ./thesis_figures/main_incubation/MRE_treated/C_N_ratio.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<thesis_figures/main_incubation/MRE_treated/Erg-to-MBC.pdf, id=3193, 511.62894pt x 280.87372pt>
+File: thesis_figures/main_incubation/MRE_treated/Erg-to-MBC.pdf Graphic file (type pdf)
+<use thesis_figures/main_incubation/MRE_treated/Erg-to-MBC.pdf>
+Package pdftex.def Info: thesis_figures/main_incubation/MRE_treated/Erg-to-MBC.pdf  used on input line 461.
+(pdftex.def)             Requested size: 409.3037pt x 224.69926pt.
+ (./thesis_figures/main_incubation/MRE_treated/CUE.tex) [59 <./thesis_figures/main_incubation/MRE_treated/Erg-to-MBC.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 477--478
+
+ []
+
+(./thesis_figures/main_incubation/MRE_treated/AS.tex)) [60]
+Chapter 4.
+(./chapters/discussion.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gls' on input line 10.
+
+[61
+
+]
+
+Package natbib Warning: Citation `' on page 62 undefined on input line 26.
+
+[62]
+
+LaTeX Warning: Hyper reference `subsection_4.2.2' on page 63 undefined on input line 36.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--46
+
+ []
+
+[63]
+Underfull \hbox (badness 10000) in paragraph at lines 47--51
+
+ []
+
+[64] [65] [66] [67]
+Underfull \hbox (badness 10000) in paragraph at lines 83--87
+
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gls' on input line 88.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--105
+
+ []
+
+[68] [69]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 107.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+
+ []
+
+[70]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gls' on input line 119.
+
+[71] [72] [73]
+Underfull \hbox (badness 10000) in paragraph at lines 152--161
+
+ []
+
+<thesis_figures/test/model_scenarios.png, id=3606, 613.79312pt x 373.89688pt>
+File: thesis_figures/test/model_scenarios.png Graphic file (type png)
+<use thesis_figures/test/model_scenarios.png>
+Package pdftex.def Info: thesis_figures/test/model_scenarios.png  used on input line 164.
+(pdftex.def)             Requested size: 491.03516pt x 299.1179pt.
+
+Overfull \hbox (7.33832pt too wide) in paragraph at lines 164--165
+ [][] 
+ []
+
+[74] [75 <./thesis_figures/test/model_scenarios.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gls' on input line 186.
+
+Package marginnote Info: Margin note 78.1 is on absolute page 78 on input line 190.
+Package marginnote Info: right page because not two side mode on input line 190.
+Package marginnote Info: xpos seems to be 65.29907pt on input line 190.
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--198
+
+ []
+
+[76] [77]
+Underfull \hbox (badness 10000) in paragraph at lines 211--215
+
+ []
+
+) [78] [79]
+Chapter 5.
+(./chapters/conclusions.tex) [80
+
+] (./main.bbl [81]
+Underfull \hbox (badness 1215) in paragraph at lines 95--103
+[]\OT1/cmr/m/n/12 Margit von L^^?utzow, I. Kogel-Knabner, K. Ekschmitt, E. Matzner, G. Guggen-berger,
+ []
+
+[82
+
+] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94])
+
+Package glossaries Warning: No \printglossary or \printglossaries found. 
+(Remove \makeglossaries if you don't want any glossaries.) 
+This document will not have a glossary.
+
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 57.
+[95]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 57.
+ ('build'/main.aux * soulpos - computing points - it may take a few seconds *
+\openout5 = `main.upb'.
+
+ ('build'/main.upa))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 57.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 57.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 6EC6A9EC356AED13CC421FD1E3C97645;6427.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 57.
+ ) 
+Here is how much of TeX's memory you used:
+ 19410 strings out of 494443
+ 330728 string characters out of 6174712
+ 518285 words of memory out of 5000000
+ 22332 multiletter control sequences out of 15000+600000
+ 12725 words of font info for 45 fonts, out of 8000000 for 9000
+ 81 hyphenation exceptions out of 8191
+ 60i,16n,94p,2601b,737s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{glo:wsa} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:dw} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:gc} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:ec} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:tin} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:ags} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:mre} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:resp} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:weoc} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:mbn} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:mbc} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:whc} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:kwc} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:str} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:stt} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:unc} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:min} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:org} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:ltt} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:gop} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:amf} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:soc} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:hwes} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:toc} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:hwec} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:hweom} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:weom} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:dom} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:carbon} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:cue} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:om} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:som} has been referenced but does not exist, replaced by a fixed one
+
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on 'build'/main.pdf (96 pages, 1179974 bytes).
+PDF statistics:
+ 3909 PDF objects out of 4296 (max. 8388607)
+ 2519 compressed objects within 26 object streams
+ 436 named destinations out of 1000 (max. 500000)
+ 815 words of extra memory for PDF output out of 10000 (max. 10000000)
+

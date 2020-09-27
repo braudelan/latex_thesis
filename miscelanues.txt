@@ -1,0 +1,12 @@
+DOM concentrations may 
+	\myRed{As mentioned above, various extraction procedures are used to represent DOM. Cold and hot water extraction of organic carbon are common procedures to evaluate the potentially dissolved OM. Cold water extractable organic C (WEOC) represent a very easily available OM, while HWEOC represents a more stable potentially dissolved pool of organic matter.}\\
+	\myGreen{Altough DOM represents only a small proportion of the total organic matter in soil, because it is the  most mobile and actively cycling organic matter fraction, it influences a spectrum of biogeochemical processes in terrestrial environments(Bolan et al. 2011).
+	DOM represents a readily available substrate for microorganisms containing a mineralizable proportion of up to 95\% (Don and Kalbitze 2005).
+	what factors drive DOM concentrations?  Soil water content? Microbial activity? SOM stocks? Aggregate structure?}
+	
+	
+	 Common components of Maize root exudate are carbohydrates, organic acids and amino acids\myRed{*}.
+	 
+	 
+
+	 \myRed{This is especially noteworthy, since none of the other parameters that were measured differentiated significantly between every pair of LTT’s. This include such sensitive indicators of management driven changes as MBC and RESP. Additionally none of AS, basal respiration and MBC were able to distinguish between the two cultivated LTT’s. Considering the possible blurring effect suggested earlier, stresses even further the potential of  HWES  to discriminate between soil treatments, specifically, different fertilization treatments.}\\

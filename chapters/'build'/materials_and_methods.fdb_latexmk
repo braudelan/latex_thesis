@@ -1,0 +1,15 @@
+# Fdb version 3
+["pdflatex"] 1601104877 "materials_and_methods.tex" "'build'/materials_and_methods.pdf" "materials_and_methods" 1601104877
+  "'build'/materials_and_methods.aux" 1601104877 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/etc/texmf/web2c/texmf.cnf" 1587410104 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd" 1523050425 2473 8052e27f66be3b6e63e955171dae6bfe ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1551226139 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1551226139 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1587410114 1015417 05a59ae668eee5164b3b0fbba56e9ef6 ""
+  "materials_and_methods.tex" 1601025712 23578 9fea101627af2d46a69d7bcdf26fd948 ""
+  "tables/substrate_properties_preliminary.tex" 0 -1 0 ""
+  (generated)
+  "'build'/materials_and_methods.pdf"
+  "'build'/materials_and_methods.log"

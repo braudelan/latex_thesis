@@ -1,0 +1,64 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/dev/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main.aux
+White space in argument---line 103 of file main.aux
+ : \citation{mganga2016,soleimani2019
+ :                                    }
+I'm skipping whatever remains of this command
+The style file: unsrtnat.bst
+Database file #1: thesis_.bib
+Warning--I didn't find a database entry for "schimel2012"
+Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "bradley2006"
+Warning--I didn't find a database entry for "treseder2004"
+Warning--I didn't find a database entry for "zhang2019"
+Warning--I didn't find a database entry for "corkidi2002"
+Warning--I didn't find a database entry for "rillig2006"
+Warning--I didn't find a database entry for "leifheit2014"
+Warning--I didn't find a database entry for "rillig2002"
+Warning--I didn't find a database entry for "barreto2009a"
+Warning--empty publisher in yu2018
+Warning--empty journal in roller2015
+Warning--empty journal in rotbart2018
+You've used 157 entries,
+            2481 wiz_defined-function locations,
+            1600 strings with 43681 characters,
+and the built_in function-call counts, 73469 in all, are:
+= -- 6406
+> -- 4525
+< -- 48
++ -- 1673
+- -- 1359
+* -- 6939
+:= -- 12243
+add.period$ -- 756
+call.type$ -- 157
+change.case$ -- 314
+chr.to.int$ -- 157
+cite$ -- 160
+duplicate$ -- 3016
+empty$ -- 5883
+format.name$ -- 1576
+if$ -- 15093
+int.to.chr$ -- 1
+int.to.str$ -- 158
+missing$ -- 157
+newline$ -- 1075
+num.names$ -- 473
+pop$ -- 843
+preamble$ -- 1
+purify$ -- 157
+quote$ -- 0
+skip$ -- 1586
+stack$ -- 0
+substring$ -- 3956
+swap$ -- 425
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1099
+warning$ -- 3
+while$ -- 612
+width$ -- 0
+write$ -- 2612
+(There was 1 error message)

@@ -1,0 +1,57 @@
+%todo capitalize first letters
+\documentclass[12pt]{report}
+
+% my setup file
+\usepackage{thesisSetup}
+
+\DeclareUnicodeCharacter{2060}{\nolinebreak}
+
+\title{
+    {thesis title}\\
+    {\large Institution name}\\
+   % {\includegraphics{university_logo.jpg}}
+}
+
+\author{braudelan }
+\date{February 2020}
+
+\begin{document}
+	\maketitle
+
+%% this for using in the rcparams
+%document text width: \printinunitsof{in}\prntlen{\textwidth}
+%lengths
+%\newlength{\figurewidth}
+%\setlength{\figurewidth}{\linewidth*0.5}
+	\chapter*{Abstract}
+	    \input{chapters/abstract}
+
+	\chapter*{Dedication}
+	    I'd like to thank this and that
+
+	\chapter*{Declaration}
+	    i declare
+
+	\chapter*{Acknowledgement}
+%todo include Nadia Buchnovsky for Ergosterol work
+	\tableofcontents
+
+	\chapter{Introduction}
+	    \input{chapters/introduction}
+
+	\chapter{Materials and Methods}
+	    \input{chapters/materials_and_methods}
+
+	\chapter{Results}
+	    \input{chapters/results}
+
+	\chapter{Discussion}
+  		\input{chapters/discussion}
+
+	\chapter{Conclusions}
+		\input{chapters/conclusions}
+
+\bibliographystyle{unsrtnat}
+\bibliography{thesis_}
+
+\end{document}

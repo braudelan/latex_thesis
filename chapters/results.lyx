@@ -1,0 +1,676 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Preliminary incubation
+\end_layout
+
+\begin_layout Standard
+The preliminary incubation was designed to examine the possible effect of
+ two LTTs, ORG and MIN, on SOM properties during a one week incubation,
+ using two different amendments with differing lability.
+\end_layout
+
+\begin_layout Subsection
+Dynamics of SOM properties in non-amended samples
+\end_layout
+
+\begin_layout Subsubsection
+Microbial biomass and respiration
+\end_layout
+
+\begin_layout Standard
+both LTTs had seen high Resp rates (Fig 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:resp_control_preliminary"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) in the first 24 h of incubation, with peak rates during the first hours
+ of incubation, quickly decreasing to reach steady values of less than 20
+ mg CO2-C/kg/day from 48 h onward.
+ A pulse of Resp was observed in Min, peaking at 74 mg CO2-C/kg/day after
+ 7 h and a significantly smaller peak of 57 mg CO2-C/kg/day was concurrently
+ recorded for Org.
+ interestingly, Resp rates were lower in Org during the first 96h of incubation.
+ It is possible that peak Resp for Org had occurred at some point between
+ the 2h and 7h sampling, thus being undetected.
+ Our main experiment indeed showed peak Resp after 4h in control samples
+ (results in following chapter).
+ Still there is little reason to believe that an earlier peak in Resp would
+ have been exclusively observed in Org as these respective LTTs presented
+ otherwise similar patterns.
+ following from Resp rate data, cumulative respiration was significantly
+ higher in Min throughout most of the incubation, with a 
+\begin_inset space ~
+\end_inset
+
+23
+\begin_inset Formula $\%$
+\end_inset
+
+ average increase over Org cumulative Resp values throughout the incubation
+ A slight and evidently statistically insignificant, increase in MBC (Fig
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig: mbc_ntrol_preliminary"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) was observed in Min samples after 24 h of incubation, followed by slight
+ decrease in the next 3 days.
+ In sharp contrast, in Org samples, MBC had seen a substantial increase
+ of 
+\begin_inset space ~
+\end_inset
+
+100 mg/kg between 24-48h of incubation.
+ This increase marked a peak of MBC in Org, after which MBC levels declined
+ sharply to reach a value of 
+\begin_inset space ~
+\end_inset
+
+370 mg/kg, practically the same as in Min.
+ 
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+ 
+\begin_inset Graphics
+	filename /home/elan/Dropbox/research/thesis/latex/Texmaker_project/figures/preliminary/absolute_values/Resp_CON.pdf
+	scale 80
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+dynamics of 
+\begin_inset Formula $CO_{2}$
+\end_inset
+
+ respiration in non-amended samples
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:resp_control_preliminary"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename /home/elan/Dropbox/research/thesis/latex/Texmaker_project/figures/preliminary/absolute_values/MBC_CON.pdf
+	scale 80
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+dynamics of MBC in non-amended samples
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:mbc_control_preliminary"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+WEOC
+\end_layout
+
+\begin_layout Standard
+WEOC (fig #) was higher in Org throughout the incubation, despite very similar
+ values at 48h.
+ Initial levels of WEOC were more than 50
+\begin_inset Formula $\%$
+\end_inset
+
+ higher in ORG, with this percentage decreasing to 
+\begin_inset space ~
+\end_inset
+
+30
+\begin_inset Formula $\%$
+\end_inset
+
+ by 96 h of incubation.
+ In both LTTs, WEOC was almost without change in the first 24 h, subsequently
+ dropping sharply to reach a relatively similar value of 
+\begin_inset space ~
+\end_inset
+
+20 mg/kg in both LTTs after 48 h of incubation.
+ This sharp decrease was followed by a substantial increase in the next
+ 48 h, finally reaching values slightly, yet significantly higher than initial
+ values.
+ It is worth noting the opposite trends between MBC and WEOC, particularly
+ in Org, whereby a sharp decrease in WEOC between 24-48 h was accompanied
+ by a similarly sharp increase and the same (inverse) contrast was observed
+ in the following 48 h.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename /home/elan/Dropbox/research/thesis/latex/Texmaker_project/figures/preliminary/absolute_values/WEOC_CON.pdf
+	width 100text%
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+dynamics of WEOC in non-amended samples
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:weoc_control_preliminary"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+HWE total Carbon and Carbohydrate-C
+\end_layout
+
+\begin_layout Standard
+Org had sustained significantly higher levels of HWEC (Fig 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:hwec_control_preliminary"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) and HWES-C (Fig 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:hwes-c_control_preliminary"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) compared with Min throughout the entire incubation, with Org values 50
+ and 30
+\begin_inset Formula $\%$
+\end_inset
+
+ higher than Min, for HWEC and HWES respectivly.
+ HWEC and HWES-C had followed very similar patterns throughout the incubation,
+ in both LTTs, while the dynamics of HWEC fluctuated more sharply in the
+ first 96h in Org but not so much in Min which presented strong concurrence
+ in time dependent changes between HWEC and HWES-C (pearson r = 0.97 for
+ first differences in Min, compared with 0.91 for Org).
+ These concurrent dynamics suggest that HWES-C comprised a relatively constant
+ fraction of HWEC in control samples of these two LTT, throughout the incubation
+ period.
+ This fraction, calculated by averaging the ratio of HWES-C-to-HWEC across
+ all sampling events, yielded a mean of 0.33 and 0.29 (assuming 40
+\begin_inset Formula $\%$
+\end_inset
+
+ carbon by weight in HWES) in Min and Org respectively, with a 
+\begin_inset Formula $\pm$
+\end_inset
+
+0.01 associated error.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename /home/elan/Dropbox/research/thesis/latex/Texmaker_project/figures/preliminary/absolute_values/HWEC_CON.pdf
+	scale 80
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+dynamics of HWEC in non-amended samples
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:hwec_control_preliminary"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename /home/elan/Dropbox/research/thesis/latex/Texmaker_project/figures/preliminary/absolute_values/HWES-C_CON.pdf
+	scale 80
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+dynamics of HWES-C in non-amended samples
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:hwes-c_control_preliminary"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Ergosterol
+\end_layout
+
+\begin_layout Standard
+Min presented a very slight decrease in Erg during the incubation period,
+ with a mean Erg concentration of 
+\begin_inset space ~
+\end_inset
+
+9 mg/kg, while Org sustained a considerable reduction in Erg concentrations
+ from 
+\begin_inset space ~
+\end_inset
+
+13 mg/kg in the first 24 h to 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+midtilde
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+10.5 mg/kg by the end of the incubation (Fig.
+ fig:ergcontrolpreliminary).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename /home/elan/Dropbox/research/thesis/latex/Texmaker_project/figures/preliminary/absolute_values/Erg_CON.pdf
+	scale 80
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+dynamics of Ergosterol in non-amended samples
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:erg_control_preliminary"
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Dynamics of SOM properties in Straw or KW Compost amended samples
+\end_layout
+
+\begin_layout Subsubsection
+MB Carbon and Respiration
+\end_layout
+
+\begin_layout Standard
+Org had seen an initial increase of ~200 and ~400 mg/kg MBC over control
+ samples, following the addition of both Str and KWC (figures # and #) respectiv
+ely, while for Min a smaller increase was observed after Str application
+ (fig #).
+ In Min, data is missing for the first sampling of KWC amended samples (fig
+ #).
+ Nonetheless, the otherwise parallel MBC trends between the two LTTs ( in
+ KWC amended samples) throughout the rest of the incubation, suggest a substanti
+al initial increase of 
+\begin_inset space ~
+\end_inset
+
+400 mg/kg over control samples (absolute value of 600 mg/kg MBC at the first
+ sampling) in Min+STR samples.
+ Despite initial increases in both STTs, subsequent dynamics differed notably.
+ In KWC amended samples, the initial MBC increase (assuming 400 mg/kg control
+ normalized MBC for Min samples) was followed by a general decrease in both
+ LTTs, suggesting the favorable effect of KWC on MBC, was short lived, at
+ least in the short-term period recorded in this incubation.
+ Org+KWC had seen a decrease in control normalized MBC from the intial 382
+ mg/kg to 250 mg/kg after 96h of incubation, while Min saw a similar or
+ greater decrease across 4 days of incubation finally reaching a control
+ normalized MBC value of 110 mg/kg.
+ Moreover, 24 h after the start of the incubation, MBC in Min+KWC samples
+ had decreased by almost 100 mg/kg below the level of corresponding control
+ samples, suggesting a short-term negative effect of KWC on MBC.
+ In contrast with KWC, STR amendment had initially caused relatively small
+ and little-to-no increases over control samples in Org and Min respectively,
+ while seeing a sharp increase of 600 mg/kg in both LTTs (
+\begin_inset space ~
+\end_inset
+
+50
+\begin_inset Formula $\%$
+\end_inset
+
+ higher than initial increase in KWC amended samples).
+ This increase was subsequently leveled off in the next 4 days.
+ Resp dynamics in the two STTs seem to concur with their respective MBC
+ dynamics.
+ KWC Resp rates peaked immediately at the onset of the incubation and subsequent
+ly decreased rapidly, reaching control normalized values of close to 20
+ mg CO2-C /kg/day after 48 hours in both LTTs, while STR Resp rates peaked
+ 7 and 10 h after incubation began, in Min and Org respectively.
+ Indeed Resp data in KWC is missing for the 7h (as well as 24 h) sampling
+ event, so that it is possible that peak rates would have been detected
+ after 7h of incubation.
+ Nonetheless, the substantial difference of more than 150 mg/kg (
+\begin_inset space ~
+\end_inset
+
+75
+\begin_inset Formula $\%$
+\end_inset
+
+ ) between the 2h and 10h sampling suggest that, even if this was true,
+ this peak would probably not have been much higher than the observed peak.
+ This intense initial respiration response followed by rapid decline towards
+ control respiration rates, corresponds to an initial MBC increase in these
+ KWC amended samples.
+ Similarly, a somewhat delayed Resp peak in STR amended samples and relatively
+ high Resp rates sustained throughout the larger part of the incubation,
+ concur with substantial growth in the first 24 h of incubation as well
+ as with the high levels of MBC sustained through the next 72 h in these
+ samples.
+\end_layout
+
+\begin_layout Section
+Effect of management history on SOM properties in non-amended samples
+\end_layout
+
+\end_body
+\end_document

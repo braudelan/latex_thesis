@@ -1,0 +1,10 @@
+
+1. fallow and low plant activity reduces biological activity, SOM, Aggregate stability
+2. high variability in biological soil features.
+3. WOEC correlated with TOC and in equilibrium with solid phase SOM
+4. land use changes cause changes in microbial community composition ( e.g. fungi-to-bacteria).
+5. cattle slurry reduces F:B ratio
+6. birch effect 
+	- increases in microbial activity and WEOC
+	- decreases in AS.
+	- effect observable also after sharp increase in water content from already wet conditions

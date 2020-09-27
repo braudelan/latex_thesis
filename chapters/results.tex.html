@@ -1,0 +1,387 @@
+<html><head><style type="text/css">pre { margin: 1px }
+			.fmt0 {  } /* normal */
+			.fmt1 {  } /* background */
+			.fmt2 { background-color: #ffcabf; } /* line:error */
+			.fmt3 { background-color: #fffbbf; } /* line:warning */
+			.fmt4 { background-color: #bfd6ff; } /* line:badbox */
+			.fmt5 {  } /* line:bookmark */
+			.fmt6 {  } /* line:bookmark0 */
+			.fmt7 {  } /* line:bookmark1 */
+			.fmt8 {  } /* line:bookmark2 */
+			.fmt9 {  } /* line:bookmark3 */
+			.fmt10 {  } /* line:bookmark4 */
+			.fmt11 {  } /* line:bookmark5 */
+			.fmt12 {  } /* line:bookmark6 */
+			.fmt13 {  } /* line:bookmark7 */
+			.fmt14 {  } /* line:bookmark8 */
+			.fmt15 {  } /* line:bookmark9 */
+			.fmt16 { color: #555580; } /* magicComment */
+			.fmt17 { background-color: #a8cf83; } /* commentTodo */
+			.fmt18 { color: #808080; } /* comment */
+			.fmt19 { color: #800000; } /* keyword */
+			.fmt20 { font-weight: 700;color: #0095ff; } /* extra-keyword */
+			.fmt21 { color: #808000; } /* math-keyword */
+			.fmt22 { border-bottom: 1px solid #0000ff;color: #0000ff; } /* link */
+			.fmt23 { font-weight: 700;color: #0055ff; } /* align-ampersand */
+			.fmt24 { color: #008080; } /* verbatim */
+			.fmt25 { color: #800000; } /* sweave-block */
+			.fmt26 { font-weight: 700;color: #0095ff; } /* sweave-delimiter */
+			.fmt27 { color: #800000; } /* pweave-block */
+			.fmt28 { font-weight: 700;color: #0095ff; } /* pweave-delimiter */
+			.fmt29 { color: #804000; } /* picture */
+			.fmt30 { color: #c06000; } /* picture-keyword */
+			.fmt31 { font-weight: 700;background-color: #ffff7f; } /* braceMatch */
+			.fmt32 { font-weight: 700;color: #ffff7f;background-color: #c00000; } /* braceMismatch */
+			.fmt33 { color: #000000;background-color: #ffef0b; } /* search */
+			.fmt34 { color: #008000; } /* numbers */
+			.fmt35 { color: #509600; } /* math-delimiter */
+			.fmt36 { color: #ff0000; } /* text */
+			.fmt37 { color: #ff0088; } /* escapeseq */
+			.fmt38 { border-bottom: 1px dashed #ff0000; } /* spellingMistake */
+			.fmt39 { border-bottom: 1px dashed #008000; } /* wordRepetition */
+			.fmt40 { border-bottom: 1px dashed #008000; } /* wordRepetitionLongRange */
+			.fmt41 { text-decoration: line-through; } /* badWord */
+			.fmt42 { border-bottom: 1px dashed #000080; } /* grammarMistake */
+			.fmt43 { background-color: #00ffa0; } /* grammarMistakeSpecial1 */
+			.fmt44 { background-color: #00c0ff; } /* grammarMistakeSpecial2 */
+			.fmt45 { background-color: #00ff00; } /* grammarMistakeSpecial3 */
+			.fmt46 { background-color: #c8ff61; } /* grammarMistakeSpecial4 */
+			.fmt47 { background-color: #ffbf9f; } /* latexSyntaxMistake */
+			.fmt48 { font-style: italic;color: #0000ff; } /* temporaryCodeCompletion */
+			.fmt49 { color: #000080; } /* environment */
+			.fmt50 { color: #008000; } /* referencePresent */
+			.fmt51 { border-bottom: 1px dashed #008000;color: #008000; } /* referenceMissing */
+			.fmt52 { border-bottom: 1px dashed #800080;color: #800080; } /* referenceMultiple */
+			.fmt53 { color: #008000; } /* citationPresent */
+			.fmt54 { border-bottom: 1px dashed #008000;color: #008000; } /* citationMissing */
+			.fmt55 { color: #008000; } /* packagePresent */
+			.fmt56 { border-bottom: 1px dashed #008000;color: #008000; } /* packageMissing */
+			.fmt57 { font-weight: 700;color: #000000; } /* structure */
+			.fmt58 { background-color: #eeeeff; } /* current */
+			.fmt59 { background-color: #b2d8ff; } /* selection */
+			.fmt60 { background-color: #ffaaaa; } /* replacement */
+			.fmt61 { text-decoration: line-through;background-color: #ffaaaa; } /* diffDelete */
+			.fmt62 { background-color: #aaffaa; } /* diffAdd */
+			.fmt63 { background-color: #ffff50; } /* diffReplace */
+			.fmt64 { background-color: #ddffcc; } /* previewSelection */
+			.fmt65 { font-weight: 700;color: #0095ff; } /* txs-test */
+			.fmt66 { font-weight: 700; } /* txs-test-summary */
+			.fmt67 { color: #008000; } /* txs-test-pass */
+			.fmt68 { color: #c00000; } /* txs-test-fail */
+			.fmt69 { color: #ea8800; } /* txs-test-warn */
+			.fmt70 { color: #808000; } /* txs-test-qdebug */
+			.fmt71 { color: #ffa500; } /* dtx:guard */
+			.fmt72 { font-weight: 700;color: #006400; } /* dtx:macro */
+			.fmt73 { color: #008080; } /* dtx:verbatim */
+			.fmt74 { color: #cc8100; } /* dtx:specialchar */
+			.fmt75 { font-weight: 700;color: #10c010; } /* dtx:commands */
+			.fmt76 { color: #b200ff; } /* lua:keyword */
+			.fmt77 { color: #808080; } /* lua:comment */
+			.fmt78 { color: #804000; } /* asymptote:block */
+			.fmt79 { color: #800080; } /* asymptote:keyword */
+			.fmt80 { color: #808000; } /* asymptote:type */
+			.fmt81 { color: #008000; } /* asymptote:numbers */
+			.fmt82 { color: #000080; } /* asymptote:string */
+			.fmt83 { color: #808080; } /* asymptote:comment */
+			.fmt84 { color: #808080; } /* qtscript:comment */
+			.fmt85 { color: #008000; } /* qtscript:string */
+			.fmt86 { color: #000080; } /* qtscript:number */
+			.fmt87 { color: #808000; } /* qtscript:keyword */
+			.fmt88 { color: #800000; } /* qtscript:txs-variable */
+			.fmt89 { font-style: italic; } /* qtscript:txs-function */
+			.fmt90 { background-color: #ffff7f; } /* preedit */
+		</style></head><body><pre><span class="fmt20">\section</span>{<span class="fmt57">Preliminary</span><span class="fmt57"> </span><span class="fmt57">incubation</span>} </pre>
+		<pre>     </pre>
+		<pre>    The preliminary incubation was designed to examine the possible effect of two <span class="fmt38">LTTs</span>, ORG and MIN, on <span class="fmt38">SOM</span> properties during a one week incubation, using two different amendments with differing <span class="fmt38">lability</span>. </pre>
+		<pre>     </pre>
+		<pre>    <span class="fmt20">\subsection</span>{<span class="fmt57">Dynamics</span><span class="fmt57"> </span><span class="fmt57">of</span><span class="fmt57"> </span><span class="fmt57"><span class="fmt38">SOM</span></span><span class="fmt57"> </span><span class="fmt57">properties</span><span class="fmt57"> </span><span class="fmt57">in</span><span class="fmt57"> </span><span class="fmt57">non-amended</span><span class="fmt57"> </span><span class="fmt57">samples</span>} </pre>
+		<pre>     </pre>
+		<pre>        <span class="fmt20">\subsubsection</span>{<span class="fmt57">Microbial</span><span class="fmt57"> </span><span class="fmt57">biomass</span><span class="fmt57"> </span><span class="fmt57">and</span><span class="fmt57"> </span><span class="fmt57">respiration</span>} </pre>
+		<pre>         </pre>
+		<pre>            both <span class="fmt38">LTTs</span> had seen high Resp rates (Fig <span class="fmt19">\ref</span>{<span class="fmt50">fig:resp_control_preliminary</span>}) in the first 24 h of incubation, with peak rates during the first hours of <span class="fmt40">incubation</span>, quickly decreasing to reach steady values of less than 20 mg CO2-C/kg/day from 48 h onward. A pulse of Resp was observed in Min, peaking at 74  mg CO2-C/kg/day after 7 h and a significantly smaller peak of 57 mg CO2-C/kg/day was concurrently recorded for Org. interestingly, Resp rates were lower in Org during the first 96h of incubation. It is possible that peak Resp for Org had occurred at some point between the 2h and 7<span class="fmt39">h</span>  sampling, thus being undetected. Our main experiment indeed showed peak Resp after 4h in control samples (results in following chapter). Still there is little reason to believe that an earlier peak in Resp would have been exclusively observed in Org as these respective <span class="fmt38">LTTs</span> presented otherwise similar patterns. </pre>
+		<pre>            following from Resp rate data, cumulative respiration was significantly higher in Min throughout most of the incubation, with a ~23<span class="fmt35">$</span><span class="fmt19">\%</span><span class="fmt35">$</span> average increase over Org cumulative Resp values throughout the incubation </pre>
+		<pre>            A slight and evidently statistically insignificant, increase in <span class="fmt38">MBC</span> (Fig <span class="fmt19">\ref</span>{<span class="fmt50">fig:mbc_control_preliminary</span>}) was observed in Min samples after 24 h of incubation, followed by slight decrease in the next 3 days.  In sharp contrast, in Org samples, <span class="fmt38">MBC</span> had seen a substantial increase of ~100 mg/kg between 24-48h of incubation. This increase marked a peak of <span class="fmt38">MBC</span> in Org, after which <span class="fmt38">MBC</span> levels declined sharply to reach a value of ~370 mg/kg, practically the same as in Min. </pre>
+		<pre>        <span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span>[H] </pre>
+		<pre>            <span class="fmt19">\centering</span> </pre>
+		<pre>            <span class="fmt19">\includegraphics</span>[scale=0.8]{figures/preliminary/absolute_values/Resp_CON.pdf} </pre>
+		<pre>            <span class="fmt19">\caption</span>{dynamics of <span class="fmt35">$</span><span class="fmt34">CO_2</span><span class="fmt35">$</span> respiration in non-amended samples} </pre>
+		<pre>            <span class="fmt19">\label</span>{<span class="fmt50">fig:resp_control_preliminary</span>} </pre>
+		<pre>        <span class="fmt20">\end{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span> </pre>
+		<pre>         </pre>
+		<pre>        <span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span>[H] </pre>
+		<pre>            <span class="fmt19">\centering</span> </pre>
+		<pre>            <span class="fmt19">\includegraphics</span>[scale=0.8, ]{figures/preliminary/absolute_values//MBC_CON.pdf} </pre>
+		<pre>            <span class="fmt19">\caption</span>{dynamics of <span class="fmt38">MBC</span> in non-amended samples} </pre>
+		<pre>            <span class="fmt19">\label</span>{<span class="fmt50">fig:mbc_control_preliminary</span>} </pre>
+		<pre>        <span class="fmt20">\end{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span> </pre>
+		<pre>         </pre>
+		<pre>        <span class="fmt20">\subsubsection</span>{<span class="fmt57"><span class="fmt38">WEOC</span></span>} </pre>
+		<pre>             </pre>
+		<pre>            <span class="fmt38">WEOC</span>  (Fig <span class="fmt19">\ref</span>{<span class="fmt50">fig:weoc_control_preliminary</span>}) was higher in Org throughout the incubation, despite very similar values at 48h. Initial levels of <span class="fmt38">WEOC</span> were more than 50<span class="fmt35">$</span><span class="fmt19">\%</span><span class="fmt35">$</span> higher in ORG, with this percentage decreasing to ~30<span class="fmt35">$</span><span class="fmt19">\%</span><span class="fmt35">$</span> by 96 h of incubation. In both <span class="fmt38">LTTs</span>, <span class="fmt38">WEOC</span> was almost without change in the first 24 h, subsequently dropping sharply to reach a relatively similar value of ~20 mg/kg in both <span class="fmt38">LTTs</span> after 48 h of incubation. This sharp decrease was followed by a substantial increase in the next 48 h, finally reaching values  slightly, yet significantly higher than initial <span class="fmt40">values.</span> It is worth noting the opposite trends between <span class="fmt38">MBC</span> and <span class="fmt38">WEOC</span>, particularly in  Org, whereby  a sharp decrease in <span class="fmt38">WEOC</span> between 24-48 h was accompanied by a similarly sharp increase and the same (inverse) contrast was observed in the following 48 h. </pre>
+		<pre>     </pre>
+		<pre>            <span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span>[H] </pre>
+		<pre>            <span class="fmt19">\centering</span> </pre>
+		<pre>            <span class="fmt19">\includegraphics</span>[scale=0.8, ]{figures/preliminary/absolute_values//WEOC_CON.pdf} </pre>
+		<pre>            <span class="fmt19">\caption</span>{dynamics of <span class="fmt38">WEOC</span> in non-amended samples} </pre>
+		<pre>            <span class="fmt19">\label</span>{<span class="fmt50">fig:weoc_control_preliminary</span>} </pre>
+		<pre>             <span class="fmt20">\end{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span> </pre>
+		<pre>       </pre>
+		<pre>       </pre>
+		<pre>       <span class="fmt20">\subsubsection</span>{<span class="fmt57"><span class="fmt38">HWE</span></span><span class="fmt57"> </span><span class="fmt57">total</span><span class="fmt57"> </span><span class="fmt57">Carbon</span><span class="fmt57"> </span><span class="fmt57">and</span><span class="fmt57"> </span><span class="fmt57">Carbohydrate-C</span>} </pre>
+		<pre>             </pre>
+		<pre>            Org had sustained significantly higher levels of <span class="fmt38">HWEC</span> (Fig <span class="fmt19">\ref</span>{<span class="fmt50">fig:hwec_control_preliminary</span>}) and <span class="fmt38">HWES-</span>C (Fig <span class="fmt19">\ref</span>{<span class="fmt50">fig:hwes-c_control_preliminary</span>}) compared with Min throughout the entire incubation, with Org values 50 and 30<span class="fmt35">$</span><span class="fmt19">\%</span><span class="fmt35">$</span> higher than Min, for <span class="fmt38">HWEC</span> and <span class="fmt38">HWES</span> <span class="fmt38">respectivly</span>. <span class="fmt38">HWEC</span> and <span class="fmt38">HWES-</span>C had followed very similar patterns throughout the incubation, in both <span class="fmt38">LTTs</span>, while the dynamics of <span class="fmt38">HWEC</span> fluctuated more sharply in the first 96h in Org but not so much in Min which presented strong concurrence in time dependent changes between <span class="fmt38">HWEC</span> and <span class="fmt38">HWES-</span>C (<span class="fmt38">pearson</span> r = 0.97 for first differences in Min, compared with 0.91 for Org). These concurrent dynamics suggest that <span class="fmt38">HWES-</span>C comprised a relatively constant fraction of <span class="fmt38">HWEC</span> in control samples of these two <span class="fmt38">LTT</span>, throughout the incubation period. This fraction, calculated by averaging the ratio of <span class="fmt38">HWES-</span>C-to-<span class="fmt38">HWEC</span> across all sampling events, yielded a mean of 0.33 and 0.29 (assuming 40<span class="fmt35">$</span><span class="fmt19">\%</span><span class="fmt35">$</span> carbon by weight in <span class="fmt38">HWES</span>) <span class="fmt39">in</span> Min and Org respectively, with a <span class="fmt35">$</span><span class="fmt21">\pm</span><span class="fmt35">$</span>0.01 associated error.    </pre>
+		<pre>         </pre>
+		<pre>            <span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span>[H] </pre>
+		<pre>                <span class="fmt19">\centering</span> </pre>
+		<pre>                <span class="fmt19">\includegraphics</span>[scale=0.8]{figures/preliminary/absolute_values/HWEC_CON.pdf} </pre>
+		<pre>                <span class="fmt19">\caption</span>{dynamics of <span class="fmt38">HWEC</span> in non-amended samples} </pre>
+		<pre>                <span class="fmt19">\label</span>{<span class="fmt50">fig:hwec_control_preliminary</span>} </pre>
+		<pre>            <span class="fmt20">\end{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span> </pre>
+		<pre>             </pre>
+		<pre>            <span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span>[H] </pre>
+		<pre>                <span class="fmt19">\centering</span> </pre>
+		<pre>                <span class="fmt19">\includegraphics</span>[scale=0.8]{figures/preliminary/absolute_values//HWES-C_CON.pdf} </pre>
+		<pre>                <span class="fmt19">\caption</span>{dynamics of <span class="fmt38">HWES-</span>C in non-amended samples} </pre>
+		<pre>                <span class="fmt19">\label</span>{<span class="fmt50">fig:hwes-c_control_preliminary</span>} </pre>
+		<pre>            <span class="fmt20">\end{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span> </pre>
+		<pre>        </pre>
+		<pre>        <span class="fmt20">\subsubsection</span>{<span class="fmt57">Ergosterol</span>} </pre>
+		<pre>             </pre>
+		<pre>            Min presented a  very slight decrease in Erg during the incubation period, with a mean Erg concentration of ~9 mg/kg, while Org sustained a considerable reduction in Erg concentrations from ~13 mg/kg in the first 24 h to 10.5 mg/kg by the end of <span class="fmt39">the</span> incubation (Fig. <span class="fmt19">\ref</span>{<span class="fmt50">fig:erg_control_preliminary</span>}). </pre>
+		<pre>             </pre>
+		<pre>            <span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span>[H] </pre>
+		<pre>                <span class="fmt19">\centering</span> </pre>
+		<pre>                <span class="fmt19">\includegraphics</span>[scale=0.8]{figures/preliminary/absolute_values//Erg_CON.pdf} </pre>
+		<pre>                <span class="fmt19">\caption</span>{dynamics of Ergosterol in non-amended samples} </pre>
+		<pre>                <span class="fmt19">\label</span>{<span class="fmt50">fig:erg_control_preliminary</span>} </pre>
+		<pre>            <span class="fmt20">\end{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span> </pre>
+		<pre> </pre>
+		<pre>     </pre>
+		<pre>    <span class="fmt20">\subsection</span>{<span class="fmt57">Dynamics</span><span class="fmt57"> </span><span class="fmt57">of</span><span class="fmt57"> </span><span class="fmt57"><span class="fmt38">SOM</span></span><span class="fmt57"> </span><span class="fmt57">properties</span><span class="fmt57"> </span><span class="fmt57">in</span><span class="fmt57"> </span><span class="fmt57">Straw</span><span class="fmt57"> </span><span class="fmt57">and</span><span class="fmt57"> </span><span class="fmt57">KW</span><span class="fmt57"> </span><span class="fmt57">Compost</span><span class="fmt57"> </span><span class="fmt57">amended</span><span class="fmt57"> </span><span class="fmt57">samples</span>} </pre>
+		<pre>     </pre>
+		<pre>     </pre>
+		<pre>         </pre>
+		<pre>        <span class="fmt20">\subsubsection</span>{<span class="fmt57">MB</span><span class="fmt57"> </span><span class="fmt57">Carbon</span><span class="fmt57"> </span><span class="fmt57">and</span><span class="fmt57"> </span><span class="fmt57">Respiration</span>} </pre>
+		<pre>         </pre>
+		<pre>         </pre>
+		<pre>             </pre>
+		<pre>            Org had seen an initial increase of 200 and 400 mg/kg <span class="fmt38">MBC</span> over control samples, following the addition of both <span class="fmt38">Str</span> and <span class="fmt38">KWC</span> (figures  and ) respectively, while for Min a smaller increase was observed after <span class="fmt38">Str</span> application (Fig <span class="fmt19">\ref</span>{<span class="fmt50">fig:MBC_treated_preliminary</span>} ). In Min, data is missing for the first sampling of <span class="fmt38">KWC</span>  amended samples (fig ). Nonetheless, the otherwise parallel <span class="fmt38">MBC</span> trends between the two <span class="fmt38">LTTs</span> ( in <span class="fmt38">KWC</span> amended samples) throughout the rest of <span class="fmt39">the</span> incubation, suggest a substantial initial increase of ~400 mg/kg over control samples (absolute value of 600 mg/kg <span class="fmt38">MBC</span> at the first sampling)  in Min+<span class="fmt38">STR</span> samples.  </pre>
+		<pre>            Despite initial increases in both <span class="fmt38">STTs</span>, subsequent dynamics differed notably. In <span class="fmt38">KWC</span> amended samples, the initial <span class="fmt38">MBC</span> increase (assuming 400 mg/kg control normalized <span class="fmt38">MBC</span> for Min samples) was followed by a general decrease in both <span class="fmt38">LTTs</span>, suggesting the favorable effect of <span class="fmt38">KWC</span> on <span class="fmt38">MBC</span>,  was short lived, at least in the short-term period recorded in this incubation. Org+<span class="fmt38">KWC</span> had seen a decrease in control normalized <span class="fmt38">MBC</span> from the <span class="fmt38">intial</span> 382 mg/kg to 250 <span class="fmt39">mg</span>/<span class="fmt39">kg</span> after 96h of incubation, while Min saw a similar or greater decrease across 4 days of incubation finally reaching a control normalized <span class="fmt38">MBC</span> value of  110 mg/kg. Moreover, 24 h after the start of <span class="fmt39">the</span> incubation, <span class="fmt38">MBC</span> in Min+<span class="fmt38">KWC</span> samples had decreased by almost 100 mg/kg below the level of corresponding control samples,  suggesting a short-term negative effect of <span class="fmt38">KWC</span> on <span class="fmt38">MBC</span>. In contrast with <span class="fmt38">KWC</span>, <span class="fmt38">STR</span> amendment had initially caused relatively small and little-to-no increases over control samples in Org and Min respectively, while seeing a sharp increase of 600 mg/kg in both <span class="fmt38">LTTs</span> (~50<span class="fmt35">$</span><span class="fmt19">\%</span><span class="fmt35">$</span> higher than initial increase in <span class="fmt38">KWC</span> amended samples). This <span class="fmt40">increase</span> was subsequently leveled off in the next 4 days.  </pre>
+		<pre>            Resp dynamics in the two <span class="fmt38">STTs</span> seem to concur with their respective <span class="fmt38">MBC</span> dynamics. <span class="fmt38">KWC</span> Resp rates peaked immediately at the onset of <span class="fmt39">the</span> incubation and subsequently decreased rapidly, reaching control normalized values of close to 20 mg CO2-C /kg/day after 48 hours in both <span class="fmt38">LTTs</span>, while <span class="fmt38">STR</span> Resp rates peaked 7 and 10 h after incubation began, in Min and Org respectively. Indeed Resp data in <span class="fmt38">KWC</span> is missing for the 7h (as well <span class="fmt39">as</span> 24 h) sampling event, so that it is possible that peak rates would have been detected after 7h of incubation. Nonetheless, the substantial difference of more than 150 mg/kg (~75<span class="fmt35">$</span><span class="fmt19">\%</span><span class="fmt35">$</span> ) between the 2h and 10<span class="fmt39">h</span> sampling suggest that, even if this was true, this peak would probably not have been much higher than the observed peak. This intense initial respiration response followed by rapid decline towards control <span class="fmt40">respiration</span> rates, corresponds  to an initial <span class="fmt38">MBC</span> increase in these <span class="fmt38">KWC</span> amended samples. Similarly, a somewhat delayed Resp peak in <span class="fmt38">STR</span> amended samples and relatively high Resp rates sustained throughout the larger part of the incubation, concur with substantial growth in the first 24 h of incubation as well <span class="fmt39">as</span> with the high levels of <span class="fmt38">MBC</span> sustained through the next 72 h in these samples.       </pre>
+		<pre>			 </pre>
+		<pre>			 <span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span>[H] </pre>
+		<pre>				<span class="fmt19">\centering</span> </pre>
+		<pre>				<span class="fmt19">\includegraphics</span>[scale=0.8]{figures/preliminary/absolute_values/MBC_STR.pdf} </pre>
+		<pre>				<span class="fmt19">\caption</span>{dynamics of <span class="fmt38">HWES-</span>C in non-amended samples} </pre>
+		<pre>				<span class="fmt19">\label</span>{<span class="fmt50">fig:MBC_treated_preliminary</span>} </pre>
+		<pre>			<span class="fmt20">\end{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span> </pre>
+		<pre>				 </pre>
+		<pre>		<span class="fmt20">\subsubsection</span>{<span class="fmt57"><span class="fmt38">WEOC</span></span>} </pre>
+		<pre>		<span class="fmt20">\subsubsection</span>{<span class="fmt57"><span class="fmt38">HWEC</span></span><span class="fmt57"> </span><span class="fmt57">and</span><span class="fmt57"> </span><span class="fmt57"><span class="fmt38">HWES</span></span>} </pre>
+		<pre>		<span class="fmt20">\subsubsection</span>{<span class="fmt57">Erg</span>} </pre>
+		<pre> </pre>
+		<pre><span class="fmt20">\section</span>{<span class="fmt57">Incubation</span><span class="fmt57"> </span><span class="fmt57">with</span><span class="fmt57"> </span><span class="fmt57"><span class="fmt38">MRE</span></span><span class="fmt57"> </span><span class="fmt57">solution</span>} </pre>
+		<pre> </pre>
+		<pre>	<span class="fmt20">\subsection</span>{<span class="fmt57"><span class="fmt38">SOM</span></span><span class="fmt57"> </span><span class="fmt57">properties</span><span class="fmt57"> </span><span class="fmt57">in</span><span class="fmt57"> </span><span class="fmt57">non-amended</span><span class="fmt57"> </span><span class="fmt57">soil</span><span class="fmt57"> </span><span class="fmt57">samples</span>} </pre>
+		<pre>		 </pre>
+		<pre>		The first objective for this work was to establish a reference point  for <span class="fmt38">SOM</span> properties in the three <span class="fmt38">LTTs</span> and evaluate the effect of <span class="fmt19">\todo</span>[X]{how many years?} years <span class="fmt39">of</span> the different management histories on the dynamics of <span class="fmt38">SOM</span> properties as well <span class="fmt39">as</span> their average baseline values in non-amended samples. </pre>
+		<pre>		 </pre>
+		<pre>		<span class="fmt20">\subsubsection</span>{<span class="fmt57">short-term</span><span class="fmt57"> </span><span class="fmt57">dynamics</span>} </pre>
+		<pre>			 </pre>
+		<pre>			the non-amended samples received distilled water as a control for <span class="fmt38">MRE</span> treated <span class="fmt40">samples</span> ( in equivalent volume <span class="fmt35">$</span><span class="fmt34">=</span><span class="fmt35">$</span> 1ml per week). The first water addition had raised the soil water content by roughly  10<span class="fmt35">$</span><span class="fmt19">\%</span><span class="fmt35">$</span> of <span class="fmt38">WHC</span> form 50 to 60<span class="fmt35">$</span><span class="fmt19">\%</span><span class="fmt35">$</span> <span class="fmt38"><span class="fmt39">WHC</span></span>. The first water addition was followed by sharp increases in <span class="fmt38">MBC</span> , RESP and  <span class="fmt38">WEOC</span> in all three <span class="fmt38">LTTs</span> (Figures <span class="fmt19">\ref</span>{<span class="fmt50">fig:mbc_control_main</span>}, <span class="fmt19">\ref</span>{<span class="fmt50">fig:resp_control_main</span>} and <span class="fmt19">\ref</span>{<span class="fmt50">fig:weoc_control_main</span>} respectively). Strong pulses of CO2-Respiration were also observed after the 2nd and 3rd water addition. Considerably smaller increases were observed in <span class="fmt38">MBC</span> between days 8-10 and <span class="fmt40">between</span> days 14-15 which seem to have been also related to water additions. These increases following water <span class="fmt40">additions</span> were not observed in <span class="fmt38">WEOC</span> (except for the first water addition). <span class="fmt19">\\</span> </pre>
+		<pre>			A general trend was observed in all the above mentioned parameters, entailing high values during the first part of the incubation (few days to one week depending on the parameter) followed by a decrease and then a steadying of values in later weeks. These similar patterns suggest a connection between microbial growth and activity <span class="fmt39">and</span> the concentrations of <span class="fmt38">WEOC</span>. <span class="fmt19">\\</span> </pre>
+		<pre>			<span class="fmt38">MBC</span> had increased almost 10 fold in ORG and MIN in the first 24 h, while a smaller, yet substantial increase, of x was observed for <span class="fmt38">UNC</span>. Subsequently, <span class="fmt38">MBC</span> levels dropped rapidly, reaching <span class="fmt40">levels</span> comparable to initial values in all three <span class="fmt38">LTTs</span> by the 8th day. from then on, another, slower and more limited in size increase <span class="fmt39">in</span> <span class="fmt38">MBC</span> was observed for all three <span class="fmt38">LTTs</span> (considerably milder in <span class="fmt38">UNC</span> compared with the two other <span class="fmt38">LTTs</span>), leveling off in the range of 221-464 mg/kg, by the 10th day. A small but significant increase was again observed during the 14th day (immediately after the 3rd water addition) peaking in at 275-564 mg/kg by day 15 and subsequently decreasing slowly to reach values of between ~200-300 mg/kg by the end of <span class="fmt39">the</span> incubation.<span class="fmt19">\\</span> </pre>
+		<pre>			A sharp pulse of CO2 respiration was observed following each water addition. <span class="fmt40">Respiration</span> rates rose sharply in the hours following water additions, peaking after ~4 h <span class="fmt19">\myRed</span>{(assumed on the 3rd week)} <span class="fmt19">\todo</span>{why 'assumed'?}. 4 hours after the first water addition respiration rates were increased by 30<span class="fmt35">$</span><span class="fmt19">\%</span><span class="fmt35">$</span> or more, over the value for 2 h (this was the first sampling), depending on <span class="fmt38">LTT</span>. After A ~50<span class="fmt35">$</span><span class="fmt19">\%</span><span class="fmt35">$</span> decrease in the next 8 h, rates were mostly  increasing  steadily until the next water addition. The 2nd week saw another, even sharper pulse of respiration, after which <span class="fmt40">respiration</span> rates were constantly decreasing. The 3rd week, similarly saw a sharp increase and then decrease in the first 10 h after water addition and respiration rates subsequently fluctuated in a constant range until the end of that week.  </pre>
+		<pre>			Similar to the dynamics of microbial growth and activity, <span class="fmt38">WEOC</span>  levels had  sharply increased in the first 24 h of incubation (by~300<span class="fmt35">$</span><span class="fmt19">\%</span><span class="fmt35">$</span> in MIN and <span class="fmt38">UNC</span> <span class="fmt39">and</span> ~400<span class="fmt35">$</span><span class="fmt19">\%</span><span class="fmt35">$</span> in ORG), declining considerably during the first half of the 2nd week, and then increasing in the 2nd half and subsequently presenting steady values in the last 2 weeks. In contrast, we did not observe any increases following the 2nd and 3rd water addition, as we did with the dynamics of <span class="fmt38">MBC</span> and particularly those of RESP.  <span class="fmt19">\\</span> </pre>
+		<pre>			<span class="fmt38">HWES</span>, in contrast with <span class="fmt38">WEOC</span>, showed only slight changes during the incubation, mostly restricted to the first half of <span class="fmt40">incubation</span>, in which a significant decrease ( particularly in MIN and <span class="fmt38">UNC</span>) <span class="fmt39">and</span> then increase back to levels similar <span class="fmt39">to</span> initial values, was observed. <span class="fmt38">HWES</span> remained practically unchanged during the 2nd half of the incubation. Arguably, <span class="fmt38">HWES</span> samplings were limited to the first and last day of each week and it is possible that more pronounced changes would have been recorded during week days, as for example, was observed for <span class="fmt38">MBC</span> in the first few days of incubation or for <span class="fmt38">WEOC</span> on day 10. Nonetheless, weekly changes in <span class="fmt38">MBC</span> and <span class="fmt38">WEOC</span> were far more considerable, with percent changes in the range of hundreds on the 1st week (<span class="fmt38">MBC</span> and <span class="fmt38">WEOC</span>) <span class="fmt39">and</span>  2nd week (<span class="fmt38">WEOC</span>) (fig x and <span class="fmt39">x</span> for <span class="fmt38">MBC</span> and <span class="fmt38">WEOC</span> respectively). <span class="fmt19">\\</span> </pre>
+		<pre>			Interestingly, the period of decreased <span class="fmt38">HWES</span> levels (1st half of incubation) correspond, to a large extent, with the period of increased <span class="fmt38">MBC</span>, CO2-Resp and <span class="fmt38">WEOC</span>. <span class="fmt19">\\</span> </pre>
+		<pre>			Aggregate stability, measured on days 0, 14 and 28, generally decreased throughout the incubation period, except in ORG <span class="fmt39">in</span> the 2nd half of the incubation. </pre>
+		<pre>			 </pre>
+		<pre>			<span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span>[H] </pre>
+		<pre>				<span class="fmt19">\centering</span> </pre>
+		<pre>				<span class="fmt19">\includegraphics</span>[scale=0.8]{figures/absolute_values/control/MBC.pdf} </pre>
+		<pre>				<span class="fmt19">\caption</span>{dynamics of <span class="fmt38">MBC</span> in non-amended samples} </pre>
+		<pre>				<span class="fmt19">\label</span>{<span class="fmt50">fig:mbc_control_main</span>} </pre>
+		<pre>			<span class="fmt20">\end{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span> </pre>
+		<pre>			 </pre>
+		<pre>			<span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span>[H] </pre>
+		<pre>				<span class="fmt19">\centering</span> </pre>
+		<pre>				<span class="fmt19">\includegraphics</span>[scale=0.8]{figures/absolute_values/control/Resp.pdf} </pre>
+		<pre>				<span class="fmt19">\caption</span>{dynamics of <span class="fmt35">$</span><span class="fmt34">CO_2</span><span class="fmt35">$</span> Respiration in non-amended samples} </pre>
+		<pre>				<span class="fmt19">\label</span>{<span class="fmt50">fig:resp_control_main</span>} </pre>
+		<pre>			<span class="fmt20">\end{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span> </pre>
+		<pre>		 </pre>
+		<pre>			<span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span>[H] </pre>
+		<pre>				<span class="fmt19">\centering</span> </pre>
+		<pre>				<span class="fmt19">\includegraphics</span>[scale=0.8]{figures/absolute_values/control/WEOC.pdf} </pre>
+		<pre>				<span class="fmt19">\caption</span>{dynamics of <span class="fmt38">WEOC</span> in non-amended samples} </pre>
+		<pre>				<span class="fmt19">\label</span>{<span class="fmt50">fig:weoc_control_main</span>} </pre>
+		<pre>			<span class="fmt20">\end{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span> </pre>
+		<pre>		 </pre>
+		<pre>		<span class="fmt20">\subsubsection</span>{<span class="fmt57">Effect</span><span class="fmt57"> </span><span class="fmt57">of</span><span class="fmt57"> </span><span class="fmt57">management</span><span class="fmt57"> </span><span class="fmt57">history</span><span class="fmt57"> </span><span class="fmt57">in</span><span class="fmt57"> </span><span class="fmt57">non-amended</span><span class="fmt57"> </span><span class="fmt57">samples</span>} </pre>
+		<pre>			 </pre>
+		<pre>			Overall, the level of <span class="fmt38">SOM</span> parameters observed for control samples throughout the incubation where in the following order, <span class="fmt38">UNC</span><span class="fmt35">$</span><span class="fmt34"> </span><span class="fmt34">&lt;</span><span class="fmt34"> </span><span class="fmt35">$</span> MIN <span class="fmt35">$</span><span class="fmt34"> </span><span class="fmt34">&lt;</span><span class="fmt34"> </span><span class="fmt35">$</span> ORG (figure <span class="fmt19">\todo</span>[reference all control figures]{reference}), However this pattern was fairly inconsistent in some of the parameters. <span class="fmt38">HWES</span> values (Fig. <span class="fmt19">\ref</span>{<span class="fmt50">fig:hwes_control_main</span>}) for ORG were significantly and substantially higher then for the two other <span class="fmt38">LTTs</span> on every sampling day and <span class="fmt38">WEOC</span> (Fig. <span class="fmt19">\ref</span>{<span class="fmt50">fig:weoc_control_main</span>}) values significantly differentiated ORG from the two other <span class="fmt38">LTTs</span> on 6 out of 10 sampling events. A similar trend is true also for <span class="fmt38">MBC</span> (Fig. <span class="fmt19">\ref</span>{<span class="fmt50">fig:resp_control_main</span>}) concentrations and RESP (Fig. <span class="fmt19">\ref</span>{<span class="fmt50">fig:resp_control_main</span>}) although differences between ORG and MIN soil  are mostly statistically insignificant and the results are generally not as clear. <span class="fmt39">As</span> mentioned above, MIN had mostly higher values than <span class="fmt38">UNC</span> for most parameters throughout the incubation but this was clear only for <span class="fmt38">HWE-</span>S concentrations, where differences between the two soils are statistically significant on every sampling day.  </pre>
+		<pre>			Apart from <span class="fmt38">HWE-</span>S, there was no single parameter that was able to significantly distinguish between control samples of the three soils on every sampling event during the 28 days incubation.  </pre>
+		<pre>			 </pre>
+		<pre>			<span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span>[H] </pre>
+		<pre>				<span class="fmt19">\centering</span> </pre>
+		<pre>				<span class="fmt19">\includegraphics</span>[scale=0.8]{figures/absolute_values/control/HWES.pdf} </pre>
+		<pre>				<span class="fmt19">\caption</span>{dynamics of <span class="fmt38">HWES</span> in non-amended samples} </pre>
+		<pre>				<span class="fmt19">\label</span>{<span class="fmt50">fig:hwes_control_main</span>} </pre>
+		<pre>			<span class="fmt20">\end{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span> </pre>
+		<pre>			 </pre>
+		<pre>			 </pre>
+		<pre>			<span class="fmt20">\paragraph</span>{<span class="fmt57">Cumulative</span><span class="fmt57"> </span><span class="fmt57">Resp</span>} </pre>
+		<pre>			Considerable differences were observed between <span class="fmt38">LTTs</span> in cumulative respiration (Fig <span class="fmt19">\ref</span>{<span class="fmt50">fig:cumulative_control_main</span>} ), in the 2nd and particularly in the 3rd week, with the same order generally observed for other parameters, that is <span class="fmt38">UNC</span><span class="fmt35">$</span><span class="fmt34">&lt;</span><span class="fmt35">$</span>MIN<span class="fmt35">$</span><span class="fmt34">&lt;</span><span class="fmt35">$</span>ORG. Total cumulative respiration after 3 weeks of incubation was 154, 199 and 261 in <span class="fmt38">UNC</span>, MIN and ORG respectively. </pre>
+		<pre>			 </pre>
+		<pre>			<span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span>[H] </pre>
+		<pre>				<span class="fmt19">\centering</span> </pre>
+		<pre>				<span class="fmt19">\includegraphics</span>[scale=0.8]{figures/absolute_values/control/cumulative_resp.pdf} </pre>
+		<pre>				<span class="fmt19">\caption</span>{Cumulative respiration in non-amended samples} </pre>
+		<pre>				<span class="fmt19">\label</span>{<span class="fmt50">fig:cumulative_control_main</span>} </pre>
+		<pre>			<span class="fmt20">\end{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span> </pre>
+		<pre>			 </pre>
+		<pre>			<span class="fmt20">\paragraph</span>{<span class="fmt57">Aggregate</span><span class="fmt57"> </span><span class="fmt57">stability</span>} </pre>
+		<pre>			as mentioned earlier, the <span class="fmt35">$</span><span class="fmt34"> </span><span class="fmt19">\%</span><span class="fmt34"> </span><span class="fmt35">$</span><span class="fmt38">WSA</span> (Fig <span class="fmt19">\ref</span>{<span class="fmt50">fig:erg_control_main</span>}) generally decreased   during the incubation. This was particularly notable in ORG and MIN during the first half of the incubation, with a decrease of more than 5.5 in both <span class="fmt38">LTTs</span>. A much more limited decrease was observed in <span class="fmt38">UNC</span> during that same period. The total decrease in MIN was roughly double the <span class="fmt40">decrease</span> observed for <span class="fmt38">UNC</span>, while ORG had actually sustained the lowest total decrease in <span class="fmt38">WSA</span>, despite large initial <span class="fmt40">decrease.</span> <span class="fmt19">\\</span> </pre>
+		<pre>			 </pre>
+		<pre>			<span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt49">center</span></span><span class="fmt20">}</span> </pre>
+		<pre>				<span class="fmt19">\todo</span>{} </pre>
+		<pre>			<span class="fmt20">\end{</span><span class="fmt20"><span class="fmt49">center</span></span><span class="fmt20">}</span> </pre>
+		<pre>							 </pre>
+		<pre>				<span class="fmt18">%</span><span class="fmt18">			</span><span class="fmt18">Include</span><span class="fmt18"> </span><span class="fmt18">a</span><span class="fmt18"> </span><span class="fmt18">note</span><span class="fmt18"> </span><span class="fmt18">about</span><span class="fmt18"> </span><span class="fmt18">strong</span><span class="fmt18"> </span><span class="fmt18">decreases</span><span class="fmt18"> </span><span class="fmt18">in</span><span class="fmt18"> </span><span class="fmt18">Org</span><span class="fmt18"> </span><span class="fmt18">and</span><span class="fmt18"> </span><span class="fmt18">Min</span><span class="fmt18"> </span><span class="fmt18">corresponding</span><span class="fmt18"> </span><span class="fmt18">to</span><span class="fmt18"> </span><span class="fmt18">periods</span><span class="fmt18"> </span><span class="fmt18">of</span><span class="fmt18"> </span><span class="fmt18">strong</span><span class="fmt18"> </span><span class="fmt18">microbial</span><span class="fmt18"> </span><span class="fmt18">activity</span><span class="fmt18"> </span><span class="fmt18">compared</span><span class="fmt18"> </span><span class="fmt18">with</span><span class="fmt18"> </span><span class="fmt18">the</span><span class="fmt18"> </span><span class="fmt18">second</span><span class="fmt18"> </span><span class="fmt18">half</span><span class="fmt18"> </span><span class="fmt18">of</span><span class="fmt18"> </span><span class="fmt18">the</span><span class="fmt18"> </span><span class="fmt18">incubation</span><span class="fmt18"> </span><span class="fmt18">which</span><span class="fmt18"> </span><span class="fmt18">showed</span><span class="fmt18"> </span><span class="fmt18">much</span><span class="fmt18"> </span><span class="fmt18">smaller</span><span class="fmt18"> </span><span class="fmt18">decreases</span><span class="fmt18"> </span><span class="fmt18">(and</span><span class="fmt18"> </span><span class="fmt18">even</span><span class="fmt18"> </span><span class="fmt18">an</span><span class="fmt18"> </span><span class="fmt18">increase</span><span class="fmt18"> </span><span class="fmt18">for</span><span class="fmt18"> </span><span class="fmt18">Org)</span><span class="fmt18"> </span><span class="fmt18">and</span><span class="fmt18"> </span><span class="fmt18">was</span><span class="fmt18"> </span><span class="fmt18">incidentally</span><span class="fmt18"> </span><span class="fmt18">also</span><span class="fmt18"> </span><span class="fmt18">characterized</span><span class="fmt18"> </span><span class="fmt18">by</span><span class="fmt18"> </span><span class="fmt18">a</span><span class="fmt18"> </span><span class="fmt18">more</span><span class="fmt18"> </span><span class="fmt18">limited</span><span class="fmt18"> </span><span class="fmt18">microbial</span><span class="fmt18"> </span><span class="fmt18">growth</span><span class="fmt18"> </span><span class="fmt18">and</span><span class="fmt18"> </span><span class="fmt18">seemingly</span><span class="fmt18"> </span><span class="fmt18">also</span><span class="fmt18"> </span><span class="fmt18">microbial</span><span class="fmt18"> </span><span class="fmt18">respiration</span><span class="fmt18"> </span><span class="fmt18">(</span><span class="fmt18"> </span><span class="fmt18">data</span><span class="fmt18"> </span><span class="fmt18">for</span><span class="fmt18"> </span><span class="fmt18">the</span><span class="fmt18"> </span><span class="fmt18">last</span><span class="fmt18"> </span><span class="fmt18">week</span><span class="fmt18"> </span><span class="fmt18">not</span><span class="fmt18"> </span><span class="fmt18">available).</span> </pre>
+		<pre>				<span class="fmt18">%</span> </pre>
+		<pre>					 </pre>
+		<pre>			<span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span>[H] </pre>
+		<pre>				<span class="fmt19">\centering</span> </pre>
+		<pre>				<span class="fmt19">\includegraphics</span>[scale=0.8]{figures/absolute_values/control/Erg.pdf} </pre>
+		<pre>				<span class="fmt19">\caption</span>{Ergosterol-to-Biomass ratio in non-amended samples} </pre>
+		<pre>				<span class="fmt19">\label</span>{<span class="fmt50">fig:erg_control_main</span>} </pre>
+		<pre>			<span class="fmt20">\end{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span> </pre>
+		<pre>		 </pre>
+		<pre>		 </pre>
+		<pre>		 </pre>
+		<pre>					 </pre>
+		<pre>		<span class="fmt20">\subsubsection</span>{<span class="fmt57">Baseline</span>} </pre>
+		<pre>			 </pre>
+		<pre>			<span class="fmt19">\myRed</span>{In order to try and get a better picture} of the possible differences in soil properties between <span class="fmt38">LTTs</span>,  table \# shows average values of control samples across day 0 and every week end of the incubation for each <span class="fmt38">LTT</span> (a total of 20 replicates each). Sampling events between week ends were omitted here to eliminate the effect of water additions at the beginning of each week and provide a baseline value that will correspond as accurately <span class="fmt39">as</span> possible to a certain normal level for each parameter X <span class="fmt38">LTT</span> combination.  </pre>
+		<pre>			the general order of <span class="fmt38">LTTs-</span> ORG> MIN> <span class="fmt38">UNC</span> -described above for the 28 days dynamics in most soil properties, is similarly maintained when average baseline values are calculated though significance did differ. </pre>
+		<pre>			ORG had a significantly higher baseline value in all measured parameters except Erg compared with <span class="fmt38">UNC</span>, while only <span class="fmt38">MBC</span>, AS, and <span class="fmt38">HWES</span> were significantly different between MIN and <span class="fmt38">UNC</span>. <span class="fmt19">\myRed</span>{These results reveal the beneficial effect of cultivation practices on <span class="fmt38">SOM</span> properties in the managed soil plots, compared with <span class="fmt38">UNC</span>, particularly when this management included the annual application of manure based compost.}  </pre>
+		<pre>			Differences <span class="fmt40">between</span> ORG and MIN were significant in <span class="fmt38">TOC</span>, <span class="fmt38">WEOC</span> and <span class="fmt38">HWES</span>, while no <span class="fmt40">significant</span> differences were observed in <span class="fmt38">MBC</span>, CO2-Resp and AS between these two <span class="fmt38">LTTs</span> (although all of these parameters were higher in ORG).  </pre>
+		<pre>			The lack of significance between ORG and MIN in <span class="fmt38">MBC</span> and CO2-Resp rates, probably reflects, to a large extent, the high degree of variability in the data, due to technical but mostly natural sources of variability.  Statistical insignificance between ORG and MIN in AS is more likely to reflect actual closer similarity between these two <span class="fmt38">LTTs</span>, at least when compared with <span class="fmt38">UNC</span>. Differences in AS between ORG and MIN were relatively smaller than those in <span class="fmt38">MBC</span> and CO2-Resp, errors were relatively smaller and the difference between <span class="fmt38">UNC</span> and the two other soils was roughly 40<span class="fmt19">\%</span> the maximum AS value (ORG). Thus, it seems that indeed <span class="fmt19"><span class="fmt38">\%</span></span><span class="fmt38">WSA</span>, at least for this aggregate size division (<span class="fmt35">$</span><span class="fmt34"> </span><span class="fmt34">&lt;</span><span class="fmt34"> </span><span class="fmt35">$</span>250 micro meter), was similar in ORG and MIN.  </pre>
+		<pre>			to summarize, it seems clear that <span class="fmt38">SOM</span> properties of ORG were different from those of the two other <span class="fmt38">LTTs</span>, despite some of the differences not being statistically significant, while MIN and <span class="fmt38">UNC</span> may have been much closer to each other in terms of <span class="fmt38">SOM</span> properties than each one of them is similar to ORG. Nonetheless, some properties, particularly, AS but also <span class="fmt38">MBC</span> and respiration, suggest a considerable distinction between MIN and <span class="fmt38">UNC</span>.  </pre>
+		<pre>			 </pre>
+		<pre>			 </pre>
+		<pre>		<span class="fmt20">\subsubsection</span>{<span class="fmt57">Baseline</span>} </pre>
+		<pre>		 </pre>
+		<pre>	<span class="fmt20">\subsection</span>{<span class="fmt57">Dynamics</span><span class="fmt57"> </span><span class="fmt57">of</span><span class="fmt57"> </span><span class="fmt57"><span class="fmt38">SOM</span></span><span class="fmt57"> </span><span class="fmt57">properties</span><span class="fmt57"> </span><span class="fmt57">in</span><span class="fmt57"> </span><span class="fmt57"><span class="fmt38">MRE</span></span><span class="fmt57"> </span><span class="fmt57">treated</span><span class="fmt57"> </span><span class="fmt57">samples</span>} </pre>
+		<pre>		 </pre>
+		<pre>		The results below are presented with regard to the effect of long term soil management on the short term soil reaction to labile organic input (specific objective \# 2). The overall trend in differences between the <span class="fmt19">\myRed</span>{<span class="fmt38">MRE</span> treated} <span class="fmt38">LTT</span>’s was mostly in accordance with their respective baseline values (I.e <span class="fmt38">UNC</span> <span class="fmt35">$</span><span class="fmt34"> </span><span class="fmt34">&lt;</span><span class="fmt34"> </span><span class="fmt35">$</span> MIN <span class="fmt35">$</span><span class="fmt34"> </span><span class="fmt34">&lt;</span><span class="fmt34"> </span><span class="fmt35">$</span> ORG).  </pre>
+		<pre>		 </pre>
+		<pre>	 </pre>
+		<pre>		<span class="fmt20">\subsubsection</span>{<span class="fmt57">Microbial</span><span class="fmt57"> </span><span class="fmt57">Biomass</span><span class="fmt57"> </span><span class="fmt57">Carbon</span>} </pre>
+		<pre>		 </pre>
+		<pre>			The first addition of <span class="fmt38">MRE</span> had a clear and similar effect on <span class="fmt38">MBC</span> in all three soils, as evidenced from the sharp increase of more than 2000 mg/kg that was recorded in all treated soils 24 hours after the addition (figure <span class="fmt19">\ref</span>{<span class="fmt50">fig:mbc_treated_main</span>}). This increase constituted a peak of <span class="fmt38">MBC</span> in the first ­week (as well <span class="fmt39">as</span> the entire incubation) after which <span class="fmt38">MBC</span> dropped by more than a 1000 mg/kg by the beginning of <span class="fmt39">the</span> 3rd day of incubation. This decrease continued in the next few days, reaching average <span class="fmt38">MBC</span> levels of between 500 and 1000 mg/kg in the <span class="fmt38">MRE</span> treated <span class="fmt38">LTTs</span> by the end of <span class="fmt39">the</span> first week. Questionable data collected on the 8th day of incubation (24 h after the 2nd pulse) and missing data from the 17th day of incubation ( 72 h after the 3rd pulse)  make it hard to assert the precise day of peak <span class="fmt38">MBC</span> in the 2nd and 3rd  week. Nonetheless it is highly plausible that a similar trend as in the 1st week of incubation occurred in these two subsequent weeks in all soils, judging from  the more reliable existing <span class="fmt38">MBC</span> data and from RESP data. </pre>
+		<pre>			Assuming that the dynamics of <span class="fmt38">MBC</span> indeed took on the same shape in the 2nd and 3rd week as in the 1st week, it can be seen that every <span class="fmt38">MRE</span> input is followed by a pulse of microbial growth reflected in the sharp increase and then decrease in <span class="fmt38">MBC</span> and RESP . </pre>
+		<pre>			The levels of weekly microbial growth <span class="fmt19">\todo</span>{add a separate graph for that? or impose on <span class="fmt38">mbc</span> dynamics?}, clearly demonstrates a reduction in the <span class="fmt40">weekly</span> <span class="fmt40">growth</span> rate with each subsequent week for Org and Min, while for <span class="fmt38">UNC</span> the trend is not obvious, with weekly growth decreasing drastically in the second week and subsequently increasing to yield an <span class="fmt38">MBC</span> growth of very similar magnitude in the third as in the first week.  </pre>
+		<pre>			<span class="fmt40">similar</span> or very close values of <span class="fmt38">MBC</span> were observed for ORG and MIN soils throughout the incubation with ORG exhibiting slightly higher values on most days (significant on day 8 and 21), while <span class="fmt38">MBC</span> dynamics for <span class="fmt38">UNC</span> diverged, at least to some extent from that of the two other soils with significantly lower values observed on the 3rd and 10th day of incubation ( 3rd day of 1st and 2nd week respectively) as well <span class="fmt39">as</span> on the 14th and 21st day of incubation (end of 2nd and 3rd week respectively). Interestingly, by the end of <span class="fmt39">the</span> incubation, absolute <span class="fmt38">MBC</span> values converged to a similar level of roughly 700 mg/kg in all treated soils. compared with <span class="fmt38">pre-</span>incubation values, this value is equivalent to an increase of  roughly 500-600 mg/kg <span class="fmt38">MBC</span> in the treated soils after 4 weeks of incubation <span class="fmt19">\todo</span>{add initial<span class="fmt47">_</span>normalized graph?}. </pre>
+		<pre>			 </pre>
+		<pre>			<span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span>[H] </pre>
+		<pre>				<span class="fmt19">\centering</span> </pre>
+		<pre>				<span class="fmt19">\includegraphics</span>[scale=0.8]{figures/absolute_values/MRE_treated/MBC.pdf} </pre>
+		<pre>				<span class="fmt19">\caption</span>{<span class="fmt38">MBC</span> in <span class="fmt38">MRE</span> amended samples} </pre>
+		<pre>				<span class="fmt19">\label</span>{<span class="fmt50">fig:mbc_treated_main</span>} </pre>
+		<pre>			<span class="fmt20">\end{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span> </pre>
+		<pre>			 </pre>
+		<pre>			 </pre>
+		<pre>			 </pre>
+		<pre>		<span class="fmt20">\subsubsection</span>*{<span class="fmt57">Microbial</span><span class="fmt57"> </span><span class="fmt57">Respiration</span>} </pre>
+		<pre>		 </pre>
+		<pre>			Similar to <span class="fmt38">MBC</span>, CO2-Resp dynamics (Fig <span class="fmt19">\ref</span>{<span class="fmt50">fig:resp_treated_main</span>} ) presented a weekly pulse shortly after each <span class="fmt38">MRE</span> addition, albeit, these pulses were much closer in time to <span class="fmt38">MRE</span> addition. In the first two weeks, respiration rates peaked two hours after <span class="fmt38">MRE</span> addition at an average of 1183 and 623 <span class="fmt35">$</span><span class="fmt34">mg\</span><span class="fmt34"> </span><span class="fmt34">CO2</span><span class="fmt35">$</span>-<span class="fmt35">$</span><span class="fmt34">C*kg^{-1}*day^{-1}</span><span class="fmt35">$</span> respectively, while the last week saw a considerably smaller peak at 246 <span class="fmt35">$</span><span class="fmt34">mg\</span><span class="fmt34"> </span><span class="fmt34">CO2</span><span class="fmt35">$</span>-<span class="fmt35">$</span><span class="fmt34">C*kg^{-1}*day^{-1}</span><span class="fmt35">$</span>, which was recorded 10 h after <span class="fmt38">MRE</span> addition (no sampling occurred between 2-10 h).  </pre>
+		<pre>			The high peak respiration rate in the first week, was followed by a general trend of sharp decrease leading to values close <span class="fmt39">to</span> the final value for that week after 3 days of incubation. The second week, unlike the first week, was characterized by a much smaller peak (roughly half the first peak) as well <span class="fmt39">as</span> higher rates in the following days, compared with a similar time period in the first week. These dynamics, entailed a considerably more flattened pattern of respiration in the second week. <span class="fmt39">The</span> third pulse was relatively similar to the 2nd pulse (2<span class="fmt39">nd</span> week) in the general pattern, compared with the first pulse, by having a much more limited peak respiration rate and relatively high rates in the next 24 h.<span class="fmt19">\\</span> </pre>
+		<pre>			<span class="fmt19">\myRed</span>{modeling of the general respiration rate dynamics (across all three <span class="fmt38">LTTs</span>) (figure \#), clearly illustrates the changing pattern in respiration between consecutive weeks.  </pre>
+		<pre>				Using this model for each <span class="fmt38">LTT</span> separately, reveals how these changing patterns between consecutive weeks were <span class="fmt38">differentially</span>  manifested in the different <span class="fmt38">LTTs</span>. This is especially apparent in the second and third weeks. The best fit parameters for each <span class="fmt38">LTT-</span>week with their corresponding <span class="fmt38">stnd</span> error are summarized in table \#.           } </pre>
+		<pre>			 </pre>
+		<pre>			<span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span>[H] </pre>
+		<pre>				<span class="fmt19">\centering</span> </pre>
+		<pre>				<span class="fmt19">\includegraphics</span>[scale=0.8]{figures/absolute_values/MRE_treated/Resp.pdf} </pre>
+		<pre>				<span class="fmt19">\caption</span>{<span class="fmt35">$</span><span class="fmt34">CO_2</span><span class="fmt35">$</span> respiration in <span class="fmt38">MRE</span> amended samples} </pre>
+		<pre>				<span class="fmt19">\label</span>{<span class="fmt50">fig:resp_treated_main</span>} </pre>
+		<pre>			<span class="fmt20">\end{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span> </pre>
+		<pre>			 </pre>
+		<pre>			 </pre>
+		<pre>		<span class="fmt20">\subsubsection</span>{<span class="fmt57">Carbon</span><span class="fmt57"> </span><span class="fmt57">Use</span><span class="fmt57"> </span><span class="fmt57">Efficiency</span>} </pre>
+		<pre>			 </pre>
+		<pre>			The weekly trend in CUE (Fig. <span class="fmt19">\ref</span>{<span class="fmt50">fig:cue_treated_main</span>}) seemed to differ between the cultivated <span class="fmt38">LTTs</span> and the non-cultivated <span class="fmt38">LTT</span>. Both <span class="fmt40">cultivated</span> <span class="fmt38">LTTs</span> presented a sharp decrease of \~{}50<span class="fmt19">\%</span> in CUE between the 1st and 2nd week with values staying practically the same between <span class="fmt39">the</span> 2nd and 3rd week. <span class="fmt38">UNC</span> saw an even more pronounced decrease in CUE between the 1st and 2nd week (about 10 fold) while the 3rd week actually saw a sharp increase compared with the 2nd week, with a CUE similar to that observed in the 1st week. </pre>
+		<pre>			 </pre>
+		<pre>			 </pre>
+		<pre>			<span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span>[H] </pre>
+		<pre>				<span class="fmt19">\centering</span> </pre>
+		<pre>				<span class="fmt19">\includegraphics</span>[scale=0.8]{figures/absolute_values/MRE_treated/CUE.pdf} </pre>
+		<pre>				<span class="fmt19">\caption</span>{CUE in <span class="fmt38">MRE</span> amended samples} </pre>
+		<pre>				<span class="fmt19">\label</span>{<span class="fmt50">fig:cue_treated_main</span>} </pre>
+		<pre>			<span class="fmt20">\end{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span> </pre>
+		<pre>			 </pre>
+		<pre>		<span class="fmt20">\subsubsection</span>{<span class="fmt57">Water</span><span class="fmt57"> </span><span class="fmt57"><span class="fmt38">Extractable</span></span><span class="fmt57"> </span><span class="fmt57">Organic</span><span class="fmt57"> </span><span class="fmt57">Carbon</span>} </pre>
+		<pre>		 </pre>
+		<pre>			<span class="fmt19">\myRed</span>{Missing <span class="fmt38">WEOC</span> data on the 8th day of incubation prevent a definite description of <span class="fmt38">UNC</span> dynamics in the 2nd week and missing data on the 18th day prevents a detailed description of <span class="fmt38">WEOC</span> dynamics in the the third week. Nonetheless these missing data points have been extrapolated based on existing data and  thus a more complete view of <span class="fmt38">WEOC</span> <span class="fmt38">dynmics</span> was obtained.} </pre>
+		<pre>			 </pre>
+		<pre>			The dynamics of <span class="fmt38">WEOC</span> (Fig. <span class="fmt19">\ref</span>{<span class="fmt50">fig:weoc_treated_main</span>} ) presented an interesting trend which differed significantly between <span class="fmt38">LTTs</span>. The first <span class="fmt38">MRE</span> addition saw a sharp increase of almost 1000 mg/kg in  <span class="fmt38">c\_WEOC</span> after 24 h in <span class="fmt38">UNC</span> samples whereas only a relatively slight increase of 106 and 33 mg/kg was observed for MIN and ORG respectively. This increase was almost entirely diminished by the 3rd day of incubation in all three <span class="fmt38">LTTs</span> and returned to values very close to the initial <span class="fmt40">values</span> after 7 days. These dynamics were similarly repeated in the 2nd and 3rd weeks, however, <span class="fmt38">WEOC</span> pulses following <span class="fmt38">MRE</span> input increased substantially between subsequent weeks in MIN and <span class="fmt38">UNC</span>. This meant that both the peak of <span class="fmt38">WEOC</span> pulse is well <span class="fmt39">is</span> its duration (I.e the time period before <span class="fmt38">WEOC</span> returned to levels close <span class="fmt39">to</span> initial values) were increased, with peak <span class="fmt38">WEOC</span> in the second week standing at \~{}500 and \~{}\# mg/kg for MIN and <span class="fmt38">UNC</span> (extrapolated) respectively, and these values almost doubled in the third week in MIN and increased by \~{}\#<span class="fmt19">\%</span> in <span class="fmt38">UNC</span>. <span class="fmt39">In</span> sharp contrast with these two <span class="fmt38">LTTs</span>, <span class="fmt38">WEOC</span> pulses after each <span class="fmt38">MRE</span> addition in ORG were considerably minor, with peak <span class="fmt38">WEOC</span> in the last week amounting to less than 150 mg/kg.  </pre>
+		<pre>			These contrasting trends between <span class="fmt38">LTTs</span>, inversely correspond with the respective respiration <span class="fmt40">trends</span> in these <span class="fmt38">LTTs</span>. <span class="fmt39">In</span> the second week of incubation, and still more in the 3rd week, lower respiration clearly corresponded with high <span class="fmt38">WEOC</span> pulse as evident from comparing the rate of change in cumulative respiration with pattern of <span class="fmt38">WEOC</span> (fig <span class="fmt19">\todo</span>{fix graph and add here}).<span class="fmt19">\\</span> </pre>
+		<pre>			<span class="fmt19">\myRed</span>{considering the intensity of these <span class="fmt38">WEOC</span> pulses immediately following <span class="fmt38">MRE</span> additions, and the above mentioned inverse relation with respiration rates, it seems highly likely that the these sharp increases in <span class="fmt38">WEOC</span> largely represent unprocessed substrate} </pre>
+		<pre>			 </pre>
+		<pre>			<span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span>[H] </pre>
+		<pre>				<span class="fmt19">\centering</span> </pre>
+		<pre>				<span class="fmt19">\includegraphics</span>[scale=0.8]{figures/absolute_values/MRE_treated/WEOC.pdf} </pre>
+		<pre>				<span class="fmt19">\caption</span>{<span class="fmt38">WEOC</span> in <span class="fmt38">MRE</span> amended samples} </pre>
+		<pre>				<span class="fmt19">\label</span>{<span class="fmt50">fig:weoc_treated_main</span>} </pre>
+		<pre>			<span class="fmt20">\end{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span> </pre>
+		<pre>		 </pre>
+		<pre>		<span class="fmt20">\subsubsection</span>{<span class="fmt57">Hot</span><span class="fmt57"> </span><span class="fmt57">water</span><span class="fmt57"> </span><span class="fmt57"><span class="fmt38">extractable</span></span><span class="fmt57"> </span><span class="fmt57">sugars</span>} </pre>
+		<pre>			Throughout the incubation period, ORG maintained highest absolute values of <span class="fmt38">HWES</span> whereas on the final sampling date a comparable level of <span class="fmt38">HWES</span> (roughly 500 mg/kg) was observed for all treated soils (Fig <span class="fmt19">\ref</span>{<span class="fmt50">fig:hwes_treated_main</span>}). ORG  had the highest <span class="fmt38">HWES</span> at the end of <span class="fmt39">the</span> incubation but this result was highly insignificant. <span class="fmt38">UNC</span> and MIN presented similar absolute values of <span class="fmt38">HWES</span> throughout the incubation. This probably reflects, at least to a certain degree their respective <span class="fmt38">SOM</span> stocks compared with ORG as <span class="fmt38">HWES</span> are often correlated with SOC. </pre>
+		<pre>			When these results are normalized to the control value (figure \#), a different prospect of the <span class="fmt38">HWES</span> dynamics emerges, whereby during the first two weeks the three <span class="fmt38">LTTs</span> maintained similar values while the last two weeks saw a clear divergence between <span class="fmt38">UNC</span> and the two other <span class="fmt38">LTTs</span>. The first week saw an increase of 100 mg/kg or less over control values in all three <span class="fmt38">LTTs</span> and the 2nd week saw a similar increase in all three <span class="fmt38">LTTs</span>. In contrast, during the third week, <span class="fmt38">UNC</span> saw a considerable increase of \~{}50 mg/kg while insignificant changes were observed for ORG and MIN. the last week saw a very similar reduction of \~{}50 mg/kg in MIN and <span class="fmt38">UNC</span> <span class="fmt39">and</span> roughly double that reduction in ORG. significant difference was observed between <span class="fmt38">UNC</span> and the two cultivated <span class="fmt38">LTTs</span> on the <span class="fmt39">the</span> last sampling event but not between ORG and MIN. </pre>
+		<pre>			 </pre>
+		<pre>			<span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span>[H] </pre>
+		<pre>				<span class="fmt19">\centering</span> </pre>
+		<pre>				<span class="fmt19">\includegraphics</span>[scale=0.8]{figures/absolute_values/MRE_treated/HWES.pdf} </pre>
+		<pre>				<span class="fmt19">\caption</span>{<span class="fmt38">HWES</span> in <span class="fmt38">MRE</span> amended samples} </pre>
+		<pre>				<span class="fmt19">\label</span>{<span class="fmt50">fig:hwes_treated_main</span>} </pre>
+		<pre>			<span class="fmt20">\end{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span> </pre>
+		<pre>			 </pre>
+		<pre>			 </pre>
+		<pre>		<span class="fmt20">\subsubsection</span>{<span class="fmt57">Microbial</span><span class="fmt57"> </span><span class="fmt57">biomass</span><span class="fmt57"> </span><span class="fmt57">nitrogen</span><span class="fmt57"> </span><span class="fmt57">and</span><span class="fmt57"> </span><span class="fmt57">C/N</span><span class="fmt57"> </span><span class="fmt57">ratio</span>} </pre>
+		<pre>			<span class="fmt19">\todo</span>{explain steady <span class="fmt38">MBN</span> in the 1st week for <span class="fmt38">UNC</span> while <span class="fmt38">MBC</span> increased showing extremely high C/N ratio} </pre>
+		<pre>			 </pre>
+		<pre>			<span class="fmt38">MBN</span> values in <span class="fmt38">MRE</span> treated soils (figure <span class="fmt19">\ref</span>{<span class="fmt50">fig:mbn_treated_main</span>}) ranged between roughly 10 to 150 mg/kg. <span class="fmt38">MBN</span> dynamics for ORG and MIN were similar in general trend. A sharp increase of roughly  7 fold was observed in first two weeks for MIN and ORG soil. In the 3rd week, increases were very small and the 4th week resulted in a slight decrease for MIN and a much larger <span class="fmt40">decrease</span> for ORG bringing the two <span class="fmt38">LTT</span>’ to a similar value of between 80-90 mg/kg. <span class="fmt19">\myRed</span>{no apparent increase in <span class="fmt38">MBN</span> was observed For <span class="fmt38">UNC</span> in the 1st week. In the 2nd week an increase comparable to that of the two other soils was measured and from then on <span class="fmt38">MBN</span> levels stayed relatively steady, reaching a final value of 60 mg/kg. }<span class="fmt19">\\</span> </pre>
+		<pre>			Microbial C-to-N ratio ranged from roughly 6 to 11 for the three soils,  throughout the incubation (fig \#), with the highest significant value observed for <span class="fmt38">UNC</span> (11.03) after 3 weeks of incubation.  </pre>
+		<pre>			An increase in microbial C-to-N ratio over initial value was visible on day 7, 14 and 21 for <span class="fmt38">UNC</span> <span class="fmt39">and</span> ORG while values for MIN stayed relatively steady, with only minor increases in these sampling days. The last week of incubation resulted in a decrease <span class="fmt39">in</span> normalized C-to-N ratio,  especially for <span class="fmt38">UNC</span> and ORG. almost completely undoing the prior increases for MIN, while values for <span class="fmt38">UNC</span> remained relatively high ( differences between MIN and <span class="fmt38">UNC</span> insignificant). </pre>
+		<pre> </pre>
+		<pre>			<span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span>[H] </pre>
+		<pre>				<span class="fmt19">\centering</span> </pre>
+		<pre>				<span class="fmt19">\includegraphics</span>[scale=0.8]{figures/absolute_values/MRE_treated/MBN.pdf} </pre>
+		<pre>				<span class="fmt19">\caption</span>{<span class="fmt38">MBN</span> in <span class="fmt38">MRE</span> amended samples} </pre>
+		<pre>				<span class="fmt19">\label</span>{<span class="fmt50">fig:mbn_treated_main</span>} </pre>
+		<pre>			<span class="fmt20">\end{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span> </pre>
+		<pre>			 </pre>
+		<pre>				 </pre>
+		<pre>		<span class="fmt20">\subsubsection</span>{<span class="fmt57">Aggregate</span><span class="fmt57"> </span><span class="fmt57">stability</span>} </pre>
+		<pre>			 </pre>
+		<pre>			The percentage of stable aggregate was increased by more than 20<span class="fmt19">\%</span> in the course of <span class="fmt39">the</span> incubation in all three soils (Fig <span class="fmt19">\ref</span>{<span class="fmt50">fig:as_treated_main</span>}). for ORG and <span class="fmt38">UNC</span>, \~{}80<span class="fmt19">\%</span> of the stable aggregates formed during the incubation period were <span class="fmt40">formed</span> in the first half of the <span class="fmt40">incubation</span>, while MIN samples presented almost similar increases in percentage of stable aggregates in the second half as in the first half of incubation.    </pre>
+		<pre>			 </pre>
+		<pre>			<span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span>[H] </pre>
+		<pre>				<span class="fmt19">\centering</span> </pre>
+		<pre>				<span class="fmt19">\includegraphics</span>[scale=0.8]{figures/absolute_values/MRE_treated/AS.pdf} </pre>
+		<pre>				<span class="fmt19">\caption</span>{<span class="fmt38">Agrregate</span> Stability in <span class="fmt38">MRE</span> amended samples} </pre>
+		<pre>				<span class="fmt19">\label</span>{<span class="fmt50">fig:as_treated_main</span>} </pre>
+		<pre>			<span class="fmt20">\end{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span>	 </pre>
+		<pre>			 </pre>
+		<pre>			 </pre>
+		<pre>		<span class="fmt20">\subsubsection</span>{<span class="fmt57">Ergosterol-to-microbial</span><span class="fmt57"> </span><span class="fmt57">biomass</span><span class="fmt57"> </span><span class="fmt57">(ERG-to-</span><span class="fmt57"><span class="fmt38">MBC</span></span><span class="fmt57">)</span>} </pre>
+		<pre>			 </pre>
+		<pre>			The ratio of ERG-to-<span class="fmt38">MBC</span> dropped sharply in the first week of incubation in both ORG and <span class="fmt38">UNC</span>, with a more moderate decrease in 	MIN, and reached a similar value of  roughly 0.05<span class="fmt19">\%</span> in all three soils. From then <span class="fmt38">onwards</span>, ERG-to-<span class="fmt38">MBC</span> remained relatively steady, with a slight decrease and then increase in the fertilized soils, during the <span class="fmt35">$</span><span class="fmt34">2^{nd}</span><span class="fmt35">$</span> and <span class="fmt35">$</span><span class="fmt34"> </span><span class="fmt34">4^{th}</span><span class="fmt34"> </span><span class="fmt35">$</span> weeks respectively. By the end of 4 weeks <span class="fmt39">of</span> incubation,  ERG-to-<span class="fmt38">MBC</span> values were practically identical at \~{}0.03<span class="fmt19">\%</span>, again indicative of the strong effect of <span class="fmt38">MRE</span> treatment compared with the <span class="fmt40">effect</span> of long-term management treatments. </pre>
+		<pre>   		 </pre>
+		<pre>			<span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span>[H] </pre>
+		<pre>				<span class="fmt19">\centering</span> </pre>
+		<pre>				<span class="fmt19">\includegraphics</span>[scale=0.8]{figures/absolute_values/MRE_treated/Erg.pdf} </pre>
+		<pre>				<span class="fmt19">\caption</span>{Ergosterol in <span class="fmt38">MRE</span> amended samples} </pre>
+		<pre>				<span class="fmt19">\label</span>{<span class="fmt50">fig:erg_treated_main</span>} </pre>
+		<pre>			<span class="fmt20">\end{</span><span class="fmt20"><span class="fmt49">figure</span></span><span class="fmt20">}</span>	 </pre></body></html>

@@ -1,0 +1,3 @@
+
+* concurrent WEOC and Resp dynamics demonstrated the role of WEOC as a major food source for microbial population.
+* correlations between SOC and WEOC content demonstrated the role of SOM as a major source of WEOC.
