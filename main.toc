@@ -1,78 +1,78 @@
-\contentsline {chapter}{\numberline {1}Introduction}{7}{chapter.1}% 
-\contentsline {section}{\numberline {1.1}Benefits of soil organic matter}{7}{section.1.1}% 
-\contentsline {section}{\numberline {1.2}Shift in paradigm regarding \gls {som} formation}{7}{section.1.2}% 
-\contentsline {section}{\numberline {1.3}Microbial population as an essential component in \gls {om} cycling}{8}{section.1.3}% 
-\contentsline {section}{\numberline {1.4}Substrate Use Efficiency }{8}{section.1.4}% 
-\contentsline {section}{\numberline {1.5}stabilization of \gls {som} closely connected with aggregate formation}{9}{section.1.5}% 
-\contentsline {section}{\numberline {1.6}the importance labile carbon for \gls {som} dynamics}{10}{section.1.6}% 
-\contentsline {section}{\numberline {1.7}Dissolved Organic Matter}{10}{section.1.7}% 
-\contentsline {section}{\numberline {1.8}Hot Water Extractable Carbon and Hot water extractable carbohydrates}{11}{section.1.8}% 
-\contentsline {section}{\numberline {1.9}Effect of management history on the long term dynamics of \gls {som} properties}{11}{section.1.9}% 
-\contentsline {subsection}{\numberline {1.9.1}Fertilizers and \gls {om} amendments}{11}{subsection.1.9.1}% 
-\contentsline {subsection}{\numberline {1.9.2}Effect of arable land management on \gls {som} properties}{12}{subsection.1.9.2}% 
-\contentsline {section}{\numberline {1.10}Effect of management history on short-term dynamics of \gls {som} properties}{13}{section.1.10}% 
-\contentsline {section}{\numberline {1.11}Short-to-medium term dynamics of organic substrate decomposition as essential components in understanding long term \gls {som} dynamics}{14}{section.1.11}% 
-\contentsline {section}{\numberline {1.12}Research objectives}{15}{section.1.12}% 
-\contentsline {section}{\numberline {1.13}Research hypothesis}{15}{section.1.13}% 
-\contentsline {chapter}{\numberline {2}Materials and Methods}{17}{chapter.2}% 
-\contentsline {section}{\numberline {2.1}Soil sampling}{17}{section.2.1}% 
-\contentsline {section}{\numberline {2.2}Preliminary experiment}{17}{section.2.2}% 
-\contentsline {section}{\numberline {2.3}Incubation with labile organic substrate}{18}{section.2.3}% 
-\contentsline {section}{\numberline {2.4}Analytical methods}{19}{section.2.4}% 
-\contentsline {subsection}{\numberline {2.4.1}CO$_2$ respiration}{19}{subsection.2.4.1}% 
-\contentsline {subsection}{\numberline {2.4.2}MBC\textbackslash {}N and WEOC}{20}{subsection.2.4.2}% 
-\contentsline {subsection}{\numberline {2.4.3}Hot water extractable sugars}{20}{subsection.2.4.3}% 
-\contentsline {subsection}{\numberline {2.4.4}Ergosterol}{21}{subsection.2.4.4}% 
-\contentsline {subsection}{\numberline {2.4.5}Total organic carbon}{21}{subsection.2.4.5}% 
-\contentsline {subsection}{\numberline {2.4.6}Aggregate stability}{21}{subsection.2.4.6}% 
-\contentsline {subsection}{\numberline {2.4.7}Mineral nitrogen}{22}{subsection.2.4.7}% 
-\contentsline {subsection}{\numberline {2.4.8}pH and EC}{22}{subsection.2.4.8}% 
-\contentsline {section}{\numberline {2.5}Calculations and statistics}{22}{section.2.5}% 
-\contentsline {subsection}{\numberline {2.5.1}Statistical analysis}{22}{subsection.2.5.1}% 
-\contentsline {subsection}{\numberline {2.5.2}Baseline}{22}{subsection.2.5.2}% 
-\contentsline {subsection}{\numberline {2.5.3}Carbon use efficiency}{23}{subsection.2.5.3}% 
-\contentsline {subsection}{\numberline {2.5.4}treatment effect}{23}{subsection.2.5.4}% 
-\contentsline {subsection}{\numberline {2.5.5}Error propagation}{24}{subsection.2.5.5}% 
-\contentsline {chapter}{\numberline {3}Results}{25}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}Incubation of soils amended with straw and compost}{25}{section.3.1}% 
-\contentsline {subsection}{\numberline {3.1.1}Dynamics of \gls {som} properties in non-amended soil}{25}{subsection.3.1.1}% 
-\contentsline {subsubsection}{Microbial biomass and respiration}{25}{section*.13}% 
-\contentsline {subsubsection}{WEOC}{27}{figure.caption.16}% 
-\contentsline {subsubsection}{HWE total Carbon and Carbohydrate-C}{28}{figure.caption.17}% 
-\contentsline {subsubsection}{Ergosterol}{29}{figure.caption.19}% 
-\contentsline {subsection}{\numberline {3.1.2}Dynamics of \gls {som} pools in Straw and KW Compost amended soil}{30}{subsection.3.1.2}% 
-\contentsline {subsubsection}{Respiration and MBC}{30}{section*.22}% 
-\contentsline {subsubsection}{WEOC}{34}{figure.caption.26}% 
-\contentsline {subsubsection}{HWEC and HWES-C}{36}{figure.caption.28}% 
-\contentsline {subsubsection}{Ergosterol}{40}{figure.caption.32}% 
-\contentsline {section}{\numberline {3.2}Incubation with MRE solution}{42}{section.3.2}% 
-\contentsline {subsection}{\numberline {3.2.1}\gls {som} properties in non-amended soil samples}{43}{subsection.3.2.1}% 
-\contentsline {subsubsection}{short-term dynamics}{43}{section*.35}% 
-\contentsline {subsubsection}{Effect of management history in non-amended samples}{46}{figure.caption.39}% 
-\contentsline {subsubsection}{Baseline}{49}{table.caption.44}% 
-\contentsline {subsection}{\numberline {3.2.2}Dynamics of \gls {som} pools in MRE amended soils}{50}{subsection.3.2.2}% 
-\contentsline {subsubsection}{Microbial Respiration}{50}{section*.47}% 
-\contentsline {subsubsection}{Microbial Biomass Carbon}{52}{figure.caption.49}% 
-\contentsline {subsubsection}{Water Extractable Organic Carbon}{54}{table.caption.51}% 
-\contentsline {subsubsection}{Hot water extractable sugars}{55}{figure.caption.53}% 
-\contentsline {subsubsection}{Microbial biomass nitrogen and C/N ratio}{57}{figure.caption.55}% 
-\contentsline {subsubsection}{Ergosterol-to-microbial biomass (ERG-to-MBC)}{58}{figure.caption.57}% 
-\contentsline {subsubsection}{Carbon Use Efficiency}{59}{figure.caption.58}% 
-\contentsline {subsubsection}{Aggregate stability}{60}{table.caption.60}% 
-\contentsline {chapter}{\numberline {4}Discussion}{61}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}effect of management history on \gls {som} pools in non-amended soils}{61}{section.4.1}% 
-\contentsline {subsection}{\numberline {4.1.1}Cultivated compared with non-cultivated}{61}{subsection.4.1.1}% 
-\contentsline {subsection}{\numberline {4.1.2}Organic vs. chemical long-term fertilization}{62}{subsection.4.1.2}% 
-\contentsline {subsection}{\numberline {4.1.3}Microbial features}{63}{subsection.4.1.3}% 
-\contentsline {subsection}{\numberline {4.1.4}WEOC}{64}{subsection.4.1.4}% 
-\contentsline {subsection}{\numberline {4.1.5}HWEC and HWES}{65}{subsection.4.1.5}% 
-\contentsline {subsection}{\numberline {4.1.6}Ergosterol}{66}{subsection.4.1.6}% 
-\contentsline {subsection}{\numberline {4.1.7}Aggregate Stability}{68}{subsection.4.1.7}% 
-\contentsline {subsection}{\numberline {4.1.8}Short term dynamics of \gls {som} pools in non amended samples}{68}{subsection.4.1.8}% 
-\contentsline {subsubsection}{Ergosterol}{71}{section*.63}% 
-\contentsline {section}{\numberline {4.2}Effect of consecutive MRE additions}{71}{section.4.2}% 
-\contentsline {subsection}{\numberline {4.2.1}Reduced weekly \gls {cue} following consecutive MRE additions}{71}{subsection.4.2.1}% 
-\contentsline {subsection}{\numberline {4.2.2}A conceptual framework for the decomposition and potential stabilization of labile organic substrate}{73}{subsection.4.2.2}% 
-\contentsline {section}{\numberline {4.3}Short term dynamics of \gls {som} pools in amended soils}{76}{section.4.3}% 
-\contentsline {subsection}{\numberline {4.3.1}Variability in WEOC removal}{76}{subsection.4.3.1}% 
-\contentsline {chapter}{\numberline {5}Conclusions}{80}{chapter.5}% 
+\contentsline {chapter}{\numberline {1}Introduction}{8}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Benefits of soil organic matter}{8}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}Shift in paradigm regarding \gls {som} formation}{8}{section.1.2}% 
+\contentsline {section}{\numberline {1.3}Microbial population as an essential component in \gls {om} cycling}{9}{section.1.3}% 
+\contentsline {section}{\numberline {1.4}Substrate Use Efficiency }{9}{section.1.4}% 
+\contentsline {section}{\numberline {1.5}stabilization of \gls {som} closely connected with aggregate formation}{10}{section.1.5}% 
+\contentsline {section}{\numberline {1.6}the importance labile carbon for \gls {som} dynamics}{11}{section.1.6}% 
+\contentsline {section}{\numberline {1.7}Dissolved Organic Matter}{11}{section.1.7}% 
+\contentsline {section}{\numberline {1.8}Hot Water Extractable Carbon and Hot water extractable carbohydrates}{12}{section.1.8}% 
+\contentsline {section}{\numberline {1.9}Effect of management history on the long term dynamics of \gls {som} properties}{12}{section.1.9}% 
+\contentsline {subsection}{\numberline {1.9.1}Fertilizers and \gls {om} amendments}{12}{subsection.1.9.1}% 
+\contentsline {subsection}{\numberline {1.9.2}Effect of arable land management on \gls {som} properties}{13}{subsection.1.9.2}% 
+\contentsline {section}{\numberline {1.10}Effect of management history on short-term dynamics of \gls {som} properties}{14}{section.1.10}% 
+\contentsline {section}{\numberline {1.11}Short-to-medium term dynamics of organic substrate decomposition as essential components in understanding long term \gls {som} dynamics}{15}{section.1.11}% 
+\contentsline {section}{\numberline {1.12}Research objectives}{16}{section.1.12}% 
+\contentsline {section}{\numberline {1.13}Research hypothesis}{16}{section.1.13}% 
+\contentsline {chapter}{\numberline {2}Materials and Methods}{18}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Soil sampling}{18}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}Preliminary experiment}{18}{section.2.2}% 
+\contentsline {section}{\numberline {2.3}Incubation with labile organic substrate}{19}{section.2.3}% 
+\contentsline {section}{\numberline {2.4}Analytical methods}{20}{section.2.4}% 
+\contentsline {subsection}{\numberline {2.4.1}CO$_2$ respiration}{20}{subsection.2.4.1}% 
+\contentsline {subsection}{\numberline {2.4.2}MBC\textbackslash {}N and WEOC}{21}{subsection.2.4.2}% 
+\contentsline {subsection}{\numberline {2.4.3}Hot water extractable sugars}{21}{subsection.2.4.3}% 
+\contentsline {subsection}{\numberline {2.4.4}Ergosterol}{22}{subsection.2.4.4}% 
+\contentsline {subsection}{\numberline {2.4.5}Total organic carbon}{22}{subsection.2.4.5}% 
+\contentsline {subsection}{\numberline {2.4.6}Aggregate stability}{22}{subsection.2.4.6}% 
+\contentsline {subsection}{\numberline {2.4.7}Mineral nitrogen}{23}{subsection.2.4.7}% 
+\contentsline {subsection}{\numberline {2.4.8}pH and EC}{23}{subsection.2.4.8}% 
+\contentsline {section}{\numberline {2.5}Calculations and statistics}{23}{section.2.5}% 
+\contentsline {subsection}{\numberline {2.5.1}Statistical analysis}{23}{subsection.2.5.1}% 
+\contentsline {subsection}{\numberline {2.5.2}Baseline}{23}{subsection.2.5.2}% 
+\contentsline {subsection}{\numberline {2.5.3}Carbon use efficiency}{24}{subsection.2.5.3}% 
+\contentsline {subsection}{\numberline {2.5.4}treatment effect}{24}{subsection.2.5.4}% 
+\contentsline {subsection}{\numberline {2.5.5}Error propagation}{25}{subsection.2.5.5}% 
+\contentsline {chapter}{\numberline {3}Results}{26}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Incubation of soils amended with straw and compost}{26}{section.3.1}% 
+\contentsline {subsection}{\numberline {3.1.1}Dynamics of \gls {som} properties in non-amended soil}{26}{subsection.3.1.1}% 
+\contentsline {subsubsection}{Microbial biomass and respiration}{26}{section*.13}% 
+\contentsline {subsubsection}{WEOC}{28}{figure.caption.16}% 
+\contentsline {subsubsection}{HWE total Carbon and Carbohydrate-C}{29}{figure.caption.17}% 
+\contentsline {subsubsection}{Ergosterol}{30}{figure.caption.19}% 
+\contentsline {subsection}{\numberline {3.1.2}Dynamics of \gls {som} pools in Straw and KW Compost amended soil}{31}{subsection.3.1.2}% 
+\contentsline {subsubsection}{Respiration and MBC}{31}{section*.22}% 
+\contentsline {subsubsection}{WEOC}{35}{figure.caption.26}% 
+\contentsline {subsubsection}{HWEC and HWES-C}{37}{figure.caption.28}% 
+\contentsline {subsubsection}{Ergosterol}{41}{figure.caption.32}% 
+\contentsline {section}{\numberline {3.2}Incubation with MRE solution}{43}{section.3.2}% 
+\contentsline {subsection}{\numberline {3.2.1}\gls {som} properties in non-amended soil samples}{44}{subsection.3.2.1}% 
+\contentsline {subsubsection}{short-term dynamics}{44}{section*.35}% 
+\contentsline {subsubsection}{Effect of management history in non-amended samples}{47}{figure.caption.39}% 
+\contentsline {subsubsection}{Baseline}{50}{table.caption.44}% 
+\contentsline {subsection}{\numberline {3.2.2}Dynamics of \gls {som} pools in MRE amended soils}{51}{subsection.3.2.2}% 
+\contentsline {subsubsection}{Microbial Respiration}{51}{section*.47}% 
+\contentsline {subsubsection}{Microbial Biomass Carbon}{53}{figure.caption.49}% 
+\contentsline {subsubsection}{Water Extractable Organic Carbon}{55}{table.caption.51}% 
+\contentsline {subsubsection}{Hot water extractable sugars}{56}{figure.caption.53}% 
+\contentsline {subsubsection}{Microbial biomass nitrogen and C/N ratio}{58}{figure.caption.55}% 
+\contentsline {subsubsection}{Ergosterol-to-microbial biomass (ERG-to-MBC)}{59}{figure.caption.57}% 
+\contentsline {subsubsection}{Carbon Use Efficiency}{60}{figure.caption.58}% 
+\contentsline {subsubsection}{Aggregate stability}{61}{table.caption.60}% 
+\contentsline {chapter}{\numberline {4}Discussion}{62}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}effect of management history on \gls {som} pools in non-amended soils}{62}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.1.1}Cultivated compared with non-cultivated}{62}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.1.2}Organic vs. chemical long-term fertilization}{63}{subsection.4.1.2}% 
+\contentsline {subsection}{\numberline {4.1.3}Microbial features}{64}{subsection.4.1.3}% 
+\contentsline {subsection}{\numberline {4.1.4}WEOC}{65}{subsection.4.1.4}% 
+\contentsline {subsection}{\numberline {4.1.5}HWEC and HWES}{66}{subsection.4.1.5}% 
+\contentsline {subsection}{\numberline {4.1.6}Ergosterol}{67}{subsection.4.1.6}% 
+\contentsline {subsection}{\numberline {4.1.7}Aggregate Stability}{69}{subsection.4.1.7}% 
+\contentsline {subsection}{\numberline {4.1.8}Short term dynamics of \gls {som} pools in non amended samples}{69}{subsection.4.1.8}% 
+\contentsline {subsubsection}{Ergosterol}{72}{section*.63}% 
+\contentsline {section}{\numberline {4.2}Effect of consecutive MRE additions}{72}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}Reduced weekly \gls {cue} following consecutive MRE additions}{72}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.2}A conceptual framework for the decomposition and potential stabilization of labile organic substrate}{74}{subsection.4.2.2}% 
+\contentsline {section}{\numberline {4.3}Short term dynamics of \gls {som} pools in amended soils}{77}{section.4.3}% 
+\contentsline {subsection}{\numberline {4.3.1}Variability in WEOC removal}{77}{subsection.4.3.1}% 
+\contentsline {chapter}{\numberline {5}Conclusions}{81}{chapter.5}% 

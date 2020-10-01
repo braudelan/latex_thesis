@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.4.20)  27 SEP 2020 10:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.4.20)  1 OCT 2020 14:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -812,45 +812,45 @@ Package caption Info: End \AtBeginDocument code.
 
 \openout5 = `main.upa'.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./chapters/abstract.tex)p
-dfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.29 	\chapter
-              *{Dedication} [1
-
-]
-Package marginnote Info: Using workaround for absolute page number on input lin
-e 29.
- [2
-
-] [3
-
-] [4
-
-] (./main.toc
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 23.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./chapters/abstract_28-9-
+20.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 9.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 23.
- [5
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.11 	
+       [1
+
+]
+Package marginnote Info: Using workaround for absolute page number on input lin
+e 11.
+) [2] [3
+
+] [4
+
+] [5
+
+] (./main.toc [6
 
 ])
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
- [6]
+ [7]
 Chapter 1.
 (./chapters/introduction.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\gls' on input line 9.
 
-[7
+[8
 
 ]
 
@@ -858,15 +858,15 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\gls' on input line 17.
 
 
-Package natbib Warning: Citation `schimel2012' on page 8 undefined on input lin
+Package natbib Warning: Citation `schimel2012' on page 9 undefined on input lin
 e 23.
 
-[8]
+[9]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\gls' on input line 34.
 
-[9]
+[10]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\gls' on input line 40.
@@ -876,7 +876,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--50
 
  []
 
-[10]
+[11]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\gls' on input line 60.
@@ -886,43 +886,43 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\gls' on input line 62.
 
 
-Package natbib Warning: Citation `' on page 11 undefined on input line 68.
+Package natbib Warning: Citation `' on page 12 undefined on input line 68.
 
-[11]
+[12]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\gls' on input line 71.
 
 
-Package natbib Warning: Citation `soleimani2019 ' on page 12 undefined on input
+Package natbib Warning: Citation `soleimani2019 ' on page 13 undefined on input
  line 79.
 
 
-Package natbib Warning: Citation `bradley2006' on page 12 undefined on input li
+Package natbib Warning: Citation `bradley2006' on page 13 undefined on input li
 ne 84.
 
 
-Package natbib Warning: Citation `treseder2004' on page 12 undefined on input l
+Package natbib Warning: Citation `treseder2004' on page 13 undefined on input l
 ine 84.
 
 
-Package natbib Warning: Citation `zhang2019' on page 12 undefined on input line
+Package natbib Warning: Citation `zhang2019' on page 13 undefined on input line
  84.
 
 
-Package natbib Warning: Citation `corkidi2002' on page 12 undefined on input li
+Package natbib Warning: Citation `corkidi2002' on page 13 undefined on input li
 ne 84.
 
 
-Package natbib Warning: Citation `rillig2006' on page 12 undefined on input lin
+Package natbib Warning: Citation `rillig2006' on page 13 undefined on input lin
 e 84.
 
 
-Package natbib Warning: Citation `leifheit2014' on page 12 undefined on input l
+Package natbib Warning: Citation `leifheit2014' on page 13 undefined on input l
 ine 84.
 
 
-Package natbib Warning: Citation `rillig2002' on page 12 undefined on input lin
+Package natbib Warning: Citation `rillig2002' on page 13 undefined on input lin
 e 84.
 
 
@@ -930,16 +930,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--86
 
  []
 
-[12]
+[13]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\gls' on input line 87.
 
 
-Package natbib Warning: Citation `barreto2009a' on page 13 undefined on input l
+Package natbib Warning: Citation `barreto2009a' on page 14 undefined on input l
 ine 94.
 
-[13]
+[14]
 Overfull \hbox (0.43092pt too wide) in paragraph at lines 97--97
 \OT1/cmr/bx/n/17.28 strate de-com-po-si-tion as es-sen-tial com-po-nents in un-
 
@@ -949,10 +949,10 @@ Overfull \hbox (0.43092pt too wide) in paragraph at lines 97--97
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\gls' on input line 97.
 
-[14]
+[15]
 Package hyperref Info: bookmark level for unknown lpcsec defaults to 0 on input
  line 112.
-) [15] [16]
+) [16] [17]
 Chapter 2.
 (./chapters/materials_and_methods.tex
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 12.
@@ -962,10 +962,10 @@ File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 12.
- [17
+ [18
 
 ]
-(./tables/substrate_properties_preliminary.tex) [18]
+(./tables/substrate_properties_preliminary.tex) [19]
 (./tables/MRE_composition.tex)
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -984,7 +984,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--43
 
  []
 
-[19]
+[20]
 LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <14.4> not available
 (Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 55.
 
@@ -997,12 +997,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--69
 
  []
 
-[20]
+[21]
 Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
-[21]
+[22]
 Underfull \hbox (badness 10000) in paragraph at lines 102--104
 
  []
@@ -1017,7 +1017,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
-[22]
+[23]
 Underfull \hbox (badness 10000) in paragraph at lines 137--139
 
  []
@@ -1037,7 +1037,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 157--159
 
  []
 
-[23]
+[24]
 Underfull \hbox (badness 10000) in paragraph at lines 167--169
 
  []
@@ -1047,7 +1047,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
  []
 
-) [24]
+) [25]
 Chapter 3.
 (./chapters/results.tex
 
@@ -1063,77 +1063,80 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--41
 
  []
 
-<thesis_figures/preliminary/control/Resp.pdf, id=1188, 511.39026pt x 264.67256p
+<thesis_figures/preliminary/control/Resp.pdf, id=1197, 511.39026pt x 264.67256p
 t>
 File: thesis_figures/preliminary/control/Resp.pdf Graphic file (type pdf)
 <use thesis_figures/preliminary/control/Resp.pdf>
 Package pdftex.def Info: thesis_figures/preliminary/control/Resp.pdf  used on i
 nput line 44.
 (pdftex.def)             Requested size: 409.11276pt x 211.73833pt.
-[25
+[26
 
 ]
-<thesis_figures/preliminary/Cum_Resp_CON.pdf, id=1195, 501.71347pt x 264.67256p
+<thesis_figures/preliminary/Cum_Resp_CON.pdf, id=1204, 501.71347pt x 264.67256p
 t>
 File: thesis_figures/preliminary/Cum_Resp_CON.pdf Graphic file (type pdf)
 <use thesis_figures/preliminary/Cum_Resp_CON.pdf>
 Package pdftex.def Info: thesis_figures/preliminary/Cum_Resp_CON.pdf  used on i
 nput line 51.
 (pdftex.def)             Requested size: 401.37132pt x 211.73833pt.
-<thesis_figures/preliminary/control/MBC.pdf, id=1197, 512.69536pt x 264.67256pt
+<thesis_figures/preliminary/control/MBC.pdf, id=1206, 512.69536pt x 264.67256pt
 >
 File: thesis_figures/preliminary/control/MBC.pdf Graphic file (type pdf)
 <use thesis_figures/preliminary/control/MBC.pdf>
 Package pdftex.def Info: thesis_figures/preliminary/control/MBC.pdf  used on in
 put line 60.
 (pdftex.def)             Requested size: 410.15683pt x 211.73833pt.
- [26 <./thesis_figures/preliminary/control/Resp.pdf> <./thesis_figures/prelimin
+ [27 <./thesis_figures/preliminary/control/Resp.pdf> <./thesis_figures/prelimin
 ary/Cum_Resp_CON.pdf
 
-pdfTeX warning: pdflatex (file ./thesis_figures/preliminary/Cum_Resp_CON.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./thesis_figures/preliminary/Cum_Resp_C
+ON.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+
 >]
-<thesis_figures/preliminary/control/WEOC.pdf, id=1301, 512.69536pt x 265.81357p
+<thesis_figures/preliminary/control/WEOC.pdf, id=1310, 512.69536pt x 265.81357p
 t>
 File: thesis_figures/preliminary/control/WEOC.pdf Graphic file (type pdf)
 <use thesis_figures/preliminary/control/WEOC.pdf>
 Package pdftex.def Info: thesis_figures/preliminary/control/WEOC.pdf  used on i
 nput line 70.
 (pdftex.def)             Requested size: 410.15683pt x 212.65114pt.
- [27 <./thesis_figures/preliminary/control/MBC.pdf> <./thesis_figures/prelimina
+ [28 <./thesis_figures/preliminary/control/MBC.pdf> <./thesis_figures/prelimina
 ry/control/WEOC.pdf
 
-pdfTeX warning: pdflatex (file ./thesis_figures/preliminary/control/WEOC.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./thesis_figures/preliminary/control/WE
+OC.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+
 >]
-<thesis_figures/preliminary/control/HWEC.pdf, id=1401, 517.77345pt x 267.55856p
+<thesis_figures/preliminary/control/HWEC.pdf, id=1410, 517.77345pt x 267.55856p
 t>
 File: thesis_figures/preliminary/control/HWEC.pdf Graphic file (type pdf)
 <use thesis_figures/preliminary/control/HWEC.pdf>
 Package pdftex.def Info: thesis_figures/preliminary/control/HWEC.pdf  used on i
 nput line 82.
 (pdftex.def)             Requested size: 414.21931pt x 214.04713pt.
-<thesis_figures/preliminary/control//HWES-C.pdf, id=1402, 517.77345pt x 264.672
+<thesis_figures/preliminary/control//HWES-C.pdf, id=1411, 517.77345pt x 264.672
 56pt>
 File: thesis_figures/preliminary/control//HWES-C.pdf Graphic file (type pdf)
 <use thesis_figures/preliminary/control//HWES-C.pdf>
 Package pdftex.def Info: thesis_figures/preliminary/control//HWES-C.pdf  used o
 n input line 89.
 (pdftex.def)             Requested size: 414.21931pt x 211.73833pt.
- [28 <./thesis_figures/preliminary/control/HWEC.pdf> <./thesis_figures/prelimin
+ [29 <./thesis_figures/preliminary/control/HWEC.pdf> <./thesis_figures/prelimin
 ary/control//HWES-C.pdf
 
-pdfTeX warning: pdflatex (file ./thesis_figures/preliminary/control//HWES-C.pdf
-): PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./thesis_figures/preliminary/control//H
+WES-C.pdf): PDF inclusion: multiple pdfs with page group included in a single p
+age
 >]
-<thesis_figures/preliminary/control/Erg.pdf, id=1510, 511.39026pt x 264.67256pt
+<thesis_figures/preliminary/control/Erg.pdf, id=1519, 511.39026pt x 264.67256pt
 >
 File: thesis_figures/preliminary/control/Erg.pdf Graphic file (type pdf)
 <use thesis_figures/preliminary/control/Erg.pdf>
 Package pdftex.def Info: thesis_figures/preliminary/control/Erg.pdf  used on in
 put line 99.
 (pdftex.def)             Requested size: 409.11276pt x 211.73833pt.
-<thesis_figures/preliminary/control/Erg-to-MBC_.pdf, id=1511, 491.11473pt x 264
+<thesis_figures/preliminary/control/Erg-to-MBC_.pdf, id=1520, 491.11473pt x 264
 .67256pt>
 File: thesis_figures/preliminary/control/Erg-to-MBC_.pdf Graphic file (type pdf
 )
@@ -1150,7 +1153,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 116.
 
-<thesis_figures/preliminary/treated/Resp.pdf, id=1516, 350.84808pt x 298.6952pt
+<thesis_figures/preliminary/treated/Resp.pdf, id=1525, 350.84808pt x 298.6952pt
 >
 File: thesis_figures/preliminary/treated/Resp.pdf Graphic file (type pdf)
 <use thesis_figures/preliminary/treated/Resp.pdf>
@@ -1162,13 +1165,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 119--126
 
  []
 
-[29 <./thesis_figures/preliminary/control/Erg.pdf> <./thesis_figures/preliminar
+[30 <./thesis_figures/preliminary/control/Erg.pdf> <./thesis_figures/preliminar
 y/control/Erg-to-MBC_.pdf
 
-pdfTeX warning: pdflatex (file ./thesis_figures/preliminary/control/Erg-to-MBC_
-.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [30]
-<thesis_figures/preliminary/control_normalized/Resp.pdf, id=1623, 350.84808pt x
+pdfTeX warning: /usr/bin/pdflatex (file ./thesis_figures/preliminary/control/Er
+g-to-MBC_.pdf): PDF inclusion: multiple pdfs with page group included in a sing
+le page
+>] [31]
+<thesis_figures/preliminary/control_normalized/Resp.pdf, id=1632, 350.84808pt x
  298.6952pt>
 File: thesis_figures/preliminary/control_normalized/Resp.pdf Graphic file (type
  pdf)
@@ -1176,20 +1180,20 @@ File: thesis_figures/preliminary/control_normalized/Resp.pdf Graphic file (type
 Package pdftex.def Info: thesis_figures/preliminary/control_normalized/Resp.pdf
   used on input line 130.
 (pdftex.def)             Requested size: 483.69684pt x 411.79872pt.
- [31 <./thesis_figures/preliminary/treated/Resp.pdf>]
+ [32 <./thesis_figures/preliminary/treated/Resp.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 135--137
 
  []
 
-[32 <./thesis_figures/preliminary/control_normalized/Resp.pdf>]
-<thesis_figures/preliminary/treated/MBC.pdf, id=1754, 346.44318pt x 298.6952pt>
+[33 <./thesis_figures/preliminary/control_normalized/Resp.pdf>]
+<thesis_figures/preliminary/treated/MBC.pdf, id=1763, 346.44318pt x 298.6952pt>
 
 File: thesis_figures/preliminary/treated/MBC.pdf Graphic file (type pdf)
 <use thesis_figures/preliminary/treated/MBC.pdf>
 Package pdftex.def Info: thesis_figures/preliminary/treated/MBC.pdf  used on in
 put line 140.
 (pdftex.def)             Requested size: 483.69684pt x 417.03554pt.
-<thesis_figures/preliminary/control_normalized/MBC.pdf, id=1755, 346.44318pt x 
+<thesis_figures/preliminary/control_normalized/MBC.pdf, id=1764, 346.44318pt x 
 298.6952pt>
 File: thesis_figures/preliminary/control_normalized/MBC.pdf Graphic file (type 
 pdf)
@@ -1197,16 +1201,16 @@ pdf)
 Package pdftex.def Info: thesis_figures/preliminary/control_normalized/MBC.pdf 
  used on input line 147.
 (pdftex.def)             Requested size: 483.69684pt x 417.03554pt.
- [33 <./thesis_figures/preliminary/treated/MBC.pdf>]
-<thesis_figures/preliminary/treated/WEOC.pdf, id=1810, 346.44318pt x 298.6952pt
+ [34 <./thesis_figures/preliminary/treated/MBC.pdf>]
+<thesis_figures/preliminary/treated/WEOC.pdf, id=1819, 346.44318pt x 298.6952pt
 >
 File: thesis_figures/preliminary/treated/WEOC.pdf Graphic file (type pdf)
 <use thesis_figures/preliminary/treated/WEOC.pdf>
 Package pdftex.def Info: thesis_figures/preliminary/treated/WEOC.pdf  used on i
 nput line 159.
 (pdftex.def)             Requested size: 483.69684pt x 417.03554pt.
- [34 <./thesis_figures/preliminary/control_normalized/MBC.pdf>]
-<thesis_figures/preliminary/control_normalized/WEOC.pdf, id=1867, 346.44318pt x
+ [35 <./thesis_figures/preliminary/control_normalized/MBC.pdf>]
+<thesis_figures/preliminary/control_normalized/WEOC.pdf, id=1876, 346.44318pt x
  298.6952pt>
 File: thesis_figures/preliminary/control_normalized/WEOC.pdf Graphic file (type
  pdf)
@@ -1214,8 +1218,8 @@ File: thesis_figures/preliminary/control_normalized/WEOC.pdf Graphic file (type
 Package pdftex.def Info: thesis_figures/preliminary/control_normalized/WEOC.pdf
   used on input line 168.
 (pdftex.def)             Requested size: 346.44232pt x 298.69446pt.
- [35 <./thesis_figures/preliminary/treated/WEOC.pdf>]
-<thesis_figures/preliminary/treated/HWEC.pdf, id=1924, 350.84808pt x 298.6952pt
+ [36 <./thesis_figures/preliminary/treated/WEOC.pdf>]
+<thesis_figures/preliminary/treated/HWEC.pdf, id=1934, 350.84808pt x 298.6952pt
 >
 File: thesis_figures/preliminary/treated/HWEC.pdf Graphic file (type pdf)
 <use thesis_figures/preliminary/treated/HWEC.pdf>
@@ -1223,8 +1227,8 @@ Package pdftex.def Info: thesis_figures/preliminary/treated/HWEC.pdf  used on i
 nput line 182.
 (pdftex.def)             Requested size: 483.69684pt x 411.79872pt.
 
-[36 <./thesis_figures/preliminary/control_normalized/WEOC.pdf>]
-<thesis_figures/preliminary/control_normalized/HWEC.pdf, id=1980, 345.82057pt x
+[37 <./thesis_figures/preliminary/control_normalized/WEOC.pdf>]
+<thesis_figures/preliminary/control_normalized/HWEC.pdf, id=1989, 345.82057pt x
  295.11757pt>
 File: thesis_figures/preliminary/control_normalized/HWEC.pdf Graphic file (type
  pdf)
@@ -1232,16 +1236,16 @@ File: thesis_figures/preliminary/control_normalized/HWEC.pdf Graphic file (type
 Package pdftex.def Info: thesis_figures/preliminary/control_normalized/HWEC.pdf
   used on input line 189.
 (pdftex.def)             Requested size: 483.69684pt x 412.7835pt.
- [37 <./thesis_figures/preliminary/treated/HWEC.pdf>]
-<thesis_figures/preliminary/treated/HWES-C.pdf, id=2034, 350.84808pt x 298.6952
+ [38 <./thesis_figures/preliminary/treated/HWEC.pdf>]
+<thesis_figures/preliminary/treated/HWES-C.pdf, id=2043, 350.84808pt x 298.6952
 pt>
 File: thesis_figures/preliminary/treated/HWES-C.pdf Graphic file (type pdf)
 <use thesis_figures/preliminary/treated/HWES-C.pdf>
 Package pdftex.def Info: thesis_figures/preliminary/treated/HWES-C.pdf  used on
  input line 196.
 (pdftex.def)             Requested size: 483.69684pt x 411.79872pt.
- [38 <./thesis_figures/preliminary/control_normalized/HWEC.pdf>]
-<thesis_figures/preliminary/control_normalized/HWES-C.pdf, id=2090, 350.84808pt
+ [39 <./thesis_figures/preliminary/control_normalized/HWEC.pdf>]
+<thesis_figures/preliminary/control_normalized/HWES-C.pdf, id=2099, 350.84808pt
  x 298.6952pt>
 File: thesis_figures/preliminary/control_normalized/HWES-C.pdf Graphic file (ty
 pe pdf)
@@ -1249,8 +1253,8 @@ pe pdf)
 Package pdftex.def Info: thesis_figures/preliminary/control_normalized/HWES-C.p
 df  used on input line 204.
 (pdftex.def)             Requested size: 483.69684pt x 411.79872pt.
- [39 <./thesis_figures/preliminary/treated/HWES-C.pdf>]
-<thesis_figures/preliminary/treated/Erg.pdf, id=2150, 340.18756pt x 296.29639pt
+ [40 <./thesis_figures/preliminary/treated/HWES-C.pdf>]
+<thesis_figures/preliminary/treated/Erg.pdf, id=2159, 340.18756pt x 296.29639pt
 >
 File: thesis_figures/preliminary/treated/Erg.pdf Graphic file (type pdf)
 <use thesis_figures/preliminary/treated/Erg.pdf>
@@ -1258,8 +1262,8 @@ Package pdftex.def Info: thesis_figures/preliminary/treated/Erg.pdf  used on in
 put line 214.
 (pdftex.def)             Requested size: 483.69684pt x 421.32703pt.
 
-[40 <./thesis_figures/preliminary/control_normalized/HWES-C.pdf>]
-<thesis_figures/preliminary/treated/Erg-to-MBC.pdf, id=2206, 445.521pt x 414.50
+[41 <./thesis_figures/preliminary/control_normalized/HWES-C.pdf>]
+<thesis_figures/preliminary/treated/Erg-to-MBC.pdf, id=2215, 445.521pt x 414.50
 694pt>
 File: thesis_figures/preliminary/treated/Erg-to-MBC.pdf Graphic file (type pdf)
 
@@ -1267,7 +1271,7 @@ File: thesis_figures/preliminary/treated/Erg-to-MBC.pdf Graphic file (type pdf)
 Package pdftex.def Info: thesis_figures/preliminary/treated/Erg-to-MBC.pdf  use
 d on input line 221.
 (pdftex.def)             Requested size: 483.69684pt x 450.04529pt.
- [41 <./thesis_figures/preliminary/treated/Erg.pdf>] [42 <./thesis_figures/prel
+ [42 <./thesis_figures/preliminary/treated/Erg.pdf>] [43 <./thesis_figures/prel
 iminary/treated/Erg-to-MBC.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1282,15 +1286,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 244--249
 
  []
 
-<thesis_figures/main_incubation/control/Resp.pdf, id=2331, 504.38312pt x 282.06
+<thesis_figures/main_incubation/control/Resp.pdf, id=2341, 504.38312pt x 282.06
 566pt>
 File: thesis_figures/main_incubation/control/Resp.pdf Graphic file (type pdf)
 <use thesis_figures/main_incubation/control/Resp.pdf>
 Package pdftex.def Info: thesis_figures/main_incubation/control/Resp.pdf  used 
 on input line 252.
 (pdftex.def)             Requested size: 403.50703pt x 225.65282pt.
-[43]
-<thesis_figures/main_incubation/control/MBC.pdf, id=2339, 517.1496pt x 282.0656
+[44]
+<thesis_figures/main_incubation/control/MBC.pdf, id=2348, 517.1496pt x 282.0656
 6pt>
 File: thesis_figures/main_incubation/control/MBC.pdf Graphic file (type pdf)
 <use thesis_figures/main_incubation/control/MBC.pdf>
@@ -1302,28 +1306,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 256--262
 
  []
 
-[44 <./thesis_figures/main_incubation/control/Resp.pdf>]
+[45 <./thesis_figures/main_incubation/control/Resp.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 264--265
 
  []
 
-<thesis_figures/main_incubation/control/WEOC.pdf, id=2397, 510.76634pt x 282.06
+<thesis_figures/main_incubation/control/WEOC.pdf, id=2406, 510.76634pt x 282.06
 566pt>
 File: thesis_figures/main_incubation/control/WEOC.pdf Graphic file (type pdf)
 <use thesis_figures/main_incubation/control/WEOC.pdf>
 Package pdftex.def Info: thesis_figures/main_incubation/control/WEOC.pdf  used 
 on input line 269.
 (pdftex.def)             Requested size: 408.61362pt x 225.65282pt.
-[45 <./thesis_figures/main_incubation/control/MBC.pdf>]
-<thesis_figures/main_incubation/control/HWES.pdf, id=2463, 510.76634pt x 282.06
+[46 <./thesis_figures/main_incubation/control/MBC.pdf>]
+<thesis_figures/main_incubation/control/HWES.pdf, id=2472, 510.76634pt x 282.06
 566pt>
 File: thesis_figures/main_incubation/control/HWES.pdf Graphic file (type pdf)
 <use thesis_figures/main_incubation/control/HWES.pdf>
 Package pdftex.def Info: thesis_figures/main_incubation/control/HWES.pdf  used 
 on input line 286.
 (pdftex.def)             Requested size: 408.61362pt x 225.65282pt.
- [46 <./thesis_figures/main_incubation/control/WEOC.pdf>]
-<thesis_figures/main_incubation/control/Cum_Resp.pdf, id=2522, 510.76634pt x 28
+ [47 <./thesis_figures/main_incubation/control/WEOC.pdf>]
+<thesis_figures/main_incubation/control/Cum_Resp.pdf, id=2531, 510.76634pt x 28
 2.06566pt>
 File: thesis_figures/main_incubation/control/Cum_Resp.pdf Graphic file (type pd
 f)
@@ -1331,20 +1335,21 @@ f)
 Package pdftex.def Info: thesis_figures/main_incubation/control/Cum_Resp.pdf  u
 sed on input line 294.
 (pdftex.def)             Requested size: 408.61362pt x 225.65282pt.
-<thesis_figures/main_incubation/control/Erg.pdf, id=2525, 504.38312pt x 282.065
+<thesis_figures/main_incubation/control/Erg.pdf, id=2534, 504.38312pt x 282.065
 66pt>
 File: thesis_figures/main_incubation/control/Erg.pdf Graphic file (type pdf)
 <use thesis_figures/main_incubation/control/Erg.pdf>
 Package pdftex.def Info: thesis_figures/main_incubation/control/Erg.pdf  used o
 n input line 301.
 (pdftex.def)             Requested size: 403.50703pt x 225.65282pt.
- [47 <./thesis_figures/main_incubation/control/HWES.pdf> <./thesis_figures/main
+ [48 <./thesis_figures/main_incubation/control/HWES.pdf> <./thesis_figures/main
 _incubation/control/Cum_Resp.pdf
 
-pdfTeX warning: pdflatex (file ./thesis_figures/main_incubation/control/Cum_Res
-p.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./thesis_figures/main_incubation/contro
+l/Cum_Resp.pdf): PDF inclusion: multiple pdfs with page group included in a sin
+gle page
 >]
-<thesis_figures/main_incubation/control/Erg-to-MBC.pdf, id=2620, 511.62894pt x 
+<thesis_figures/main_incubation/control/Erg-to-MBC.pdf, id=2630, 511.62894pt x 
 282.06566pt>
 File: thesis_figures/main_incubation/control/Erg-to-MBC.pdf Graphic file (type 
 pdf)
@@ -1352,7 +1357,7 @@ pdf)
 Package pdftex.def Info: thesis_figures/main_incubation/control/Erg-to-MBC.pdf 
  used on input line 309.
 (pdftex.def)             Requested size: 409.3037pt x 225.65282pt.
- [48 <./thesis_figures/main_incubation/control/Erg.pdf>]
+ [49 <./thesis_figures/main_incubation/control/Erg.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 313--316
 
  []
@@ -1367,7 +1372,7 @@ Overfull \hbox (43.20453pt too wide) in paragraph at lines 8--26
  [] 
  []
 
-) [49 <./thesis_figures/main_incubation/control/Erg-to-MBC.pdf>]
+) [50 <./thesis_figures/main_incubation/control/Erg-to-MBC.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 323--328
 
  []
@@ -1390,8 +1395,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 340--342
 
  []
 
-[50]
-<thesis_figures/main_incubation/MRE_treated/Resp.pdf, id=2739, 517.1496pt x 281
+[51]
+<thesis_figures/main_incubation/MRE_treated/Resp.pdf, id=2748, 517.1496pt x 281
 .53848pt>
 File: thesis_figures/main_incubation/MRE_treated/Resp.pdf Graphic file (type pd
 f)
@@ -1406,18 +1411,18 @@ Overfull \hbox (8.29102pt too wide) in paragraph at lines 350--354
 sy/m/n/12 ^^C
  []
 
-<thesis_figures/test/Cum_Resp.pdf, id=2741, 517.1496pt x 282.06566pt>
+<thesis_figures/test/Cum_Resp.pdf, id=2750, 517.1496pt x 282.06566pt>
 File: thesis_figures/test/Cum_Resp.pdf Graphic file (type pdf)
 <use thesis_figures/test/Cum_Resp.pdf>
 Package pdftex.def Info: thesis_figures/test/Cum_Resp.pdf  used on input line 3
 58.
 (pdftex.def)             Requested size: 413.72023pt x 225.65282pt.
-[51 <./thesis_figures/main_incubation/MRE_treated/Resp.pdf>]
+[52 <./thesis_figures/main_incubation/MRE_treated/Resp.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 366--367
 
  []
 
-<thesis_figures/main_incubation/MRE_treated/MBC.pdf, id=2801, 517.1496pt x 280.
+<thesis_figures/main_incubation/MRE_treated/MBC.pdf, id=2810, 517.1496pt x 280.
 87372pt>
 File: thesis_figures/main_incubation/MRE_treated/MBC.pdf Graphic file (type pdf
 )
@@ -1425,7 +1430,7 @@ File: thesis_figures/main_incubation/MRE_treated/MBC.pdf Graphic file (type pdf
 Package pdftex.def Info: thesis_figures/main_incubation/MRE_treated/MBC.pdf  us
 ed on input line 372.
 (pdftex.def)             Requested size: 413.72023pt x 224.69926pt.
-[52 <./thesis_figures/test/Cum_Resp.pdf>]
+[53 <./thesis_figures/test/Cum_Resp.pdf>]
 (./thesis_figures/test/microbial_features.tex
 Underfull \hbox (badness 10000) in paragraph at lines 377--18
 
@@ -1436,8 +1441,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 380--381
 
  []
 
-[53 <./thesis_figures/main_incubation/MRE_treated/MBC.pdf>]
-<thesis_figures/main_incubation/MRE_treated/WEOC.pdf, id=2918, 517.1496pt x 280
+[54 <./thesis_figures/main_incubation/MRE_treated/MBC.pdf>]
+<thesis_figures/main_incubation/MRE_treated/WEOC.pdf, id=2928, 517.1496pt x 280
 .87372pt>
 File: thesis_figures/main_incubation/MRE_treated/WEOC.pdf Graphic file (type pd
 f)
@@ -1445,8 +1450,8 @@ f)
 Package pdftex.def Info: thesis_figures/main_incubation/MRE_treated/WEOC.pdf  u
 sed on input line 399.
 (pdftex.def)             Requested size: 413.72023pt x 224.69926pt.
- [54]
-<thesis_figures/main_incubation/MRE_treated/weoc_pct_change.pdf, id=2924, 533.9
+ [55]
+<thesis_figures/main_incubation/MRE_treated/weoc_pct_change.pdf, id=2933, 533.9
 7307pt x 277.04692pt>
 File: thesis_figures/main_incubation/MRE_treated/weoc_pct_change.pdf Graphic fi
 le (type pdf)
@@ -1454,14 +1459,14 @@ le (type pdf)
 Package pdftex.def Info: thesis_figures/main_incubation/MRE_treated/weoc_pct_ch
 ange.pdf  used on input line 406.
 (pdftex.def)             Requested size: 427.17903pt x 221.63783pt.
- [55 <./thesis_figures/main_incubation/MRE_treated/WEOC.pdf> <./thesis_figures/
+ [56 <./thesis_figures/main_incubation/MRE_treated/WEOC.pdf> <./thesis_figures/
 main_incubation/MRE_treated/weoc_pct_change.pdf
 
-pdfTeX warning: pdflatex (file ./thesis_figures/main_incubation/MRE_treated/weo
-c_pct_change.pdf): PDF inclusion: multiple pdfs with page group included in a s
-ingle page
+pdfTeX warning: /usr/bin/pdflatex (file ./thesis_figures/main_incubation/MRE_tr
+eated/weoc_pct_change.pdf): PDF inclusion: multiple pdfs with page group includ
+ed in a single page
 >]
-<thesis_figures/main_incubation/MRE_treated/HWES.pdf, id=3027, 510.76634pt x 28
+<thesis_figures/main_incubation/MRE_treated/HWES.pdf, id=3036, 510.76634pt x 28
 2.06566pt>
 File: thesis_figures/main_incubation/MRE_treated/HWES.pdf Graphic file (type pd
 f)
@@ -1469,7 +1474,7 @@ f)
 Package pdftex.def Info: thesis_figures/main_incubation/MRE_treated/HWES.pdf  u
 sed on input line 418.
 (pdftex.def)             Requested size: 408.61362pt x 225.65282pt.
-<thesis_figures/main_incubation/control_normalized/HWES.pdf, id=3028, 510.76634
+<thesis_figures/main_incubation/control_normalized/HWES.pdf, id=3037, 510.76634
 pt x 284.87955pt>
 File: thesis_figures/main_incubation/control_normalized/HWES.pdf Graphic file (
 type pdf)
@@ -1477,8 +1482,8 @@ type pdf)
 Package pdftex.def Info: thesis_figures/main_incubation/control_normalized/HWES
 .pdf  used on input line 425.
 (pdftex.def)             Requested size: 408.61362pt x 227.90393pt.
- [56 <./thesis_figures/main_incubation/MRE_treated/HWES.pdf>]
-<thesis_figures/main_incubation/MRE_treated/MBN.pdf, id=3075, 510.76634pt x 282
+ [57 <./thesis_figures/main_incubation/MRE_treated/HWES.pdf>]
+<thesis_figures/main_incubation/MRE_treated/MBN.pdf, id=3084, 510.76634pt x 282
 .06566pt>
 File: thesis_figures/main_incubation/MRE_treated/MBN.pdf Graphic file (type pdf
 )
@@ -1486,8 +1491,8 @@ File: thesis_figures/main_incubation/MRE_treated/MBN.pdf Graphic file (type pdf
 Package pdftex.def Info: thesis_figures/main_incubation/MRE_treated/MBN.pdf  us
 ed on input line 438.
 (pdftex.def)             Requested size: 408.61362pt x 225.65282pt.
- [57 <./thesis_figures/main_incubation/control_normalized/HWES.pdf>]
-<thesis_figures/main_incubation/MRE_treated/C_N_ratio.pdf, id=3121, 472.26312pt
+ [58 <./thesis_figures/main_incubation/control_normalized/HWES.pdf>]
+<thesis_figures/main_incubation/MRE_treated/C_N_ratio.pdf, id=3130, 472.26312pt
  x 282.06566pt>
 File: thesis_figures/main_incubation/MRE_treated/C_N_ratio.pdf Graphic file (ty
 pe pdf)
@@ -1495,14 +1500,14 @@ pe pdf)
 Package pdftex.def Info: thesis_figures/main_incubation/MRE_treated/C_N_ratio.p
 df  used on input line 445.
 (pdftex.def)             Requested size: 377.811pt x 225.65282pt.
- [58 <./thesis_figures/main_incubation/MRE_treated/MBN.pdf> <./thesis_figures/m
+ [59 <./thesis_figures/main_incubation/MRE_treated/MBN.pdf> <./thesis_figures/m
 ain_incubation/MRE_treated/C_N_ratio.pdf
 
-pdfTeX warning: pdflatex (file ./thesis_figures/main_incubation/MRE_treated/C_N
-_ratio.pdf): PDF inclusion: multiple pdfs with page group included in a single 
-page
+pdfTeX warning: /usr/bin/pdflatex (file ./thesis_figures/main_incubation/MRE_tr
+eated/C_N_ratio.pdf): PDF inclusion: multiple pdfs with page group included in 
+a single page
 >]
-<thesis_figures/main_incubation/MRE_treated/Erg-to-MBC.pdf, id=3193, 511.62894p
+<thesis_figures/main_incubation/MRE_treated/Erg-to-MBC.pdf, id=3202, 511.62894p
 t x 280.87372pt>
 File: thesis_figures/main_incubation/MRE_treated/Erg-to-MBC.pdf Graphic file (t
 ype pdf)
@@ -1510,28 +1515,28 @@ ype pdf)
 Package pdftex.def Info: thesis_figures/main_incubation/MRE_treated/Erg-to-MBC.
 pdf  used on input line 461.
 (pdftex.def)             Requested size: 409.3037pt x 224.69926pt.
- (./thesis_figures/main_incubation/MRE_treated/CUE.tex) [59 <./thesis_figures/m
+ (./thesis_figures/main_incubation/MRE_treated/CUE.tex) [60 <./thesis_figures/m
 ain_incubation/MRE_treated/Erg-to-MBC.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 477--478
 
  []
 
-(./thesis_figures/main_incubation/MRE_treated/AS.tex)) [60]
+(./thesis_figures/main_incubation/MRE_treated/AS.tex)) [61]
 Chapter 4.
 (./chapters/discussion.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\gls' on input line 10.
 
-[61
+[62
 
 ]
 
-Package natbib Warning: Citation `' on page 62 undefined on input line 26.
+Package natbib Warning: Citation `' on page 63 undefined on input line 26.
 
-[62]
+[63]
 
-LaTeX Warning: Hyper reference `subsection_4.2.2' on page 63 undefined on input
+LaTeX Warning: Hyper reference `subsection_4.2.2' on page 64 undefined on input
  line 36.
 
 
@@ -1539,12 +1544,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--46
 
  []
 
-[63]
+[64]
 Underfull \hbox (badness 10000) in paragraph at lines 47--51
 
  []
 
-[64] [65] [66] [67]
+[65] [66] [67] [68]
 Underfull \hbox (badness 10000) in paragraph at lines 83--87
 
  []
@@ -1558,7 +1563,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--105
 
  []
 
-[68] [69]
+[69] [70]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 107.
@@ -1568,17 +1573,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
-[70]
+[71]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\gls' on input line 119.
 
-[71] [72] [73]
+[72] [73] [74]
 Underfull \hbox (badness 10000) in paragraph at lines 152--161
 
  []
 
-<thesis_figures/test/model_scenarios.png, id=3606, 613.79312pt x 373.89688pt>
+<thesis_figures/test/model_scenarios.png, id=3615, 613.79312pt x 373.89688pt>
 File: thesis_figures/test/model_scenarios.png Graphic file (type png)
 <use thesis_figures/test/model_scenarios.png>
 Package pdftex.def Info: thesis_figures/test/model_scenarios.png  used on input
@@ -1589,12 +1594,12 @@ Overfull \hbox (7.33832pt too wide) in paragraph at lines 164--165
  [][] 
  []
 
-[74] [75 <./thesis_figures/test/model_scenarios.png>]
+[75] [76 <./thesis_figures/test/model_scenarios.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\gls' on input line 186.
 
-Package marginnote Info: Margin note 78.1 is on absolute page 78 on input line 
+Package marginnote Info: Margin note 79.1 is on absolute page 79 on input line 
 190.
 Package marginnote Info: right page because not two side mode on input line 190
 .
@@ -1604,24 +1609,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 193--198
 
  []
 
-[76] [77]
+[77] [78]
 Underfull \hbox (badness 10000) in paragraph at lines 211--215
 
  []
 
-) [78] [79]
+) [79] [80]
 Chapter 5.
-(./chapters/conclusions.tex) [80
+(./chapters/conclusions.tex [81
 
-] (./main.bbl [81]
+]) (./main.bbl [82]
 Underfull \hbox (badness 1215) in paragraph at lines 95--103
 []\OT1/cmr/m/n/12 Margit von L^^?utzow, I. Kogel-Knabner, K. Ekschmitt, E. Matz
 ner, G. Guggen-berger,
  []
 
-[82
+[83
 
-] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94])
+] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95])
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
@@ -1631,7 +1636,7 @@ This document will not have a glossary.
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 57.
-[95]
+[96]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 57.
  (./main.aux * soulpos - computing points - it may take a few seconds *
 \openout5 = `main.upb'.
@@ -1649,8 +1654,8 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 57.
  ) 
 Here is how much of TeX's memory you used:
- 19409 strings out of 494443
- 330620 string characters out of 6174712
+ 19411 strings out of 494443
+ 330659 string characters out of 6174712
  518285 words of memory out of 5000000
  22332 multiletter control sequences out of 15000+600000
  12725 words of font info for 45 fonts, out of 8000000 for 9000
@@ -1671,22 +1676,10 @@ laced by a fixed one
 pdfTeX warning (dest): name{glo:tin} has been referenced but does not exist, re
 placed by a fixed one
 
-pdfTeX warning (dest): name{glo:ags} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{glo:mre} has been referenced but does not exist, re
-placed by a fixed one
-
 pdfTeX warning (dest): name{glo:resp} has been referenced but does not exist, r
 eplaced by a fixed one
 
-pdfTeX warning (dest): name{glo:weoc} has been referenced but does not exist, r
-eplaced by a fixed one
-
 pdfTeX warning (dest): name{glo:mbn} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{glo:mbc} has been referenced but does not exist, re
 placed by a fixed one
 
 pdfTeX warning (dest): name{glo:whc} has been referenced but does not exist, re
@@ -1722,9 +1715,6 @@ placed by a fixed one
 pdfTeX warning (dest): name{glo:soc} has been referenced but does not exist, re
 placed by a fixed one
 
-pdfTeX warning (dest): name{glo:hwes} has been referenced but does not exist, r
-eplaced by a fixed one
-
 pdfTeX warning (dest): name{glo:toc} has been referenced but does not exist, re
 placed by a fixed one
 
@@ -1752,6 +1742,21 @@ laced by a fixed one
 pdfTeX warning (dest): name{glo:som} has been referenced but does not exist, re
 placed by a fixed one
 
+pdfTeX warning (dest): name{glo:ags} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:hwes} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{glo:weoc} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{glo:mbc} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:mre} has been referenced but does not exist, re
+placed by a fixed one
+
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texli
@@ -1768,10 +1773,10 @@ re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (96 pages, 1179986 bytes).
+Output written on main.pdf (97 pages, 1184964 bytes).
 PDF statistics:
- 3909 PDF objects out of 4296 (max. 8388607)
- 2519 compressed objects within 26 object streams
- 436 named destinations out of 1000 (max. 500000)
+ 3919 PDF objects out of 4296 (max. 8388607)
+ 2528 compressed objects within 26 object streams
+ 437 named destinations out of 1000 (max. 500000)
  815 words of extra memory for PDF output out of 10000 (max. 10000000)
 
