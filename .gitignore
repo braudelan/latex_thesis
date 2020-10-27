@@ -1,0 +1,12 @@
+# Blacklist all files/folders in same directory as the .gitignore file
+/*
+
+# whitelist these file extensions
+!*.tex
+!*.pdf
+
+# whitelist these folders
+!chapters/
+!thesis_figures/
+!tables
+
