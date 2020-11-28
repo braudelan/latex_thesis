@@ -1,4 +1,4 @@
-\begin{thebibliography}{157}
+\begin{thebibliography}{167}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -231,6 +231,12 @@ Rita Kiem and Ingrid {K{\"o}gel-Knabner}.
   101--118, January 2003.
 \newblock ISSN 00380717.
 \newblock \doi{10.1016/S0038-0717(02)00242-0}.
+
+\bibitem[Schimel and Schaeffer(2012)]{schimel2012}
+Joshua~P. Schimel and Sean~M. Schaeffer.
+\newblock Microbial control over carbon cycling in soil.
+\newblock \emph{Frontiers in Microbiology}, 3\penalty0 (SEP), 2012.
+\newblock \doi{10.3389/fmicb.2012.00348}.
 
 \bibitem[Yu(2018)]{yu2018}
 Guanghui Yu.
@@ -853,6 +859,14 @@ Kevin~Z. Mganga, Bahar~S. Razavi, and Yakov Kuzyakov.
 \newblock ISSN 0341-8162.
 \newblock \doi{10.1016/j.catena.2016.02.013}.
 
+\bibitem[Soleimani et~al.(2019)Soleimani, Hosseini, Bavani, Jafari, and
+  Francaviglia]{soleimani2019}
+Azam Soleimani, Seyed~Mohsen Hosseini, Ali Reza~Massah Bavani, Mostafa Jafari,
+  and Rosa Francaviglia.
+\newblock Influence of land use and land cover change on soil organic carbon
+  and microbial activity in the forests of northern iran.
+\newblock \emph{Catena}, 177:\penalty0 227--237, 2019.
+
 \bibitem[Monkai et~al.(2018)Monkai, Goldberg, Hyde, Harrison, Mortimer, and
   Xu]{monkai2018}
 Jutamart Monkai, Stefanie~D. Goldberg, Kevin~D. Hyde, Rhett~D. Harrison,
@@ -947,6 +961,71 @@ Louise~M. {Egerton-Warburton} and Edith~B. Allen.
 \newblock ISSN 1051-0761.
 \newblock \doi{10.1890/1051-0761(2000)010[0484:SIAMCA]2.0.CO;2}.
 
+\bibitem[Bradley et~al.(2006)Bradley, Drijber, and Knops]{bradley2006}
+Kate Bradley, Rhae~A. Drijber, and Jean Knops.
+\newblock Increased {N} availability in grassland soils modifies their
+  microbial communities and decreases the abundance of arbuscular mycorrhizal
+  fungi.
+\newblock \emph{Soil Biology and Biochemistry}, 38\penalty0 (7):\penalty0
+  1583--1595, July 2006.
+\newblock ISSN 0038-0717.
+\newblock \doi{10.1016/j.soilbio.2005.11.011}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0038071706000083}.
+
+\bibitem[Treseder(2004)]{treseder2004}
+Kathleen~K. Treseder.
+\newblock A meta-analysis of mycorrhizal responses to nitrogen, phosphorus, and
+  atmospheric {{CO2}} in field studies.
+\newblock \emph{New Phytologist}, 164\penalty0 (2):\penalty0 347--355, 2004.
+\newblock ISSN 1469-8137.
+\newblock \doi{10.1111/j.1469-8137.2004.01159.x}.
+
+\bibitem[Zhang et~al.(2019)Zhang, Yu, Wang, Singh, and Fu]{zhang2019}
+Shujuan Zhang, Jiazheng Yu, Shuwei Wang, Rajendra~Prasad Singh, and Dafang Fu.
+\newblock Nitrogen fertilization altered arbuscular mycorrhizal fungi abundance
+  and soil erosion of paddy fields in the {{Taihu Lake}} region of {{China}}.
+\newblock \emph{Environmental Science and Pollution Research}, 26\penalty0
+  (27):\penalty0 27987--27998, September 2019.
+\newblock ISSN 0944-1344, 1614-7499.
+\newblock \doi{10.1007/s11356-019-06005-0}.
+
+\bibitem[Corkidi et~al.(2002)Corkidi, Rowland, Johnson, and Allen]{corkidi2002}
+Lea Corkidi, Diane~L. Rowland, Nancy~C. Johnson, and Edith~B. Allen.
+\newblock Nitrogen fertilization alters the functioning of arbuscular
+  mycorrhizas at two semiarid grasslands.
+\newblock \emph{Plant and Soil}, 240\penalty0 (2):\penalty0 299--310, March
+  2002.
+\newblock ISSN 1573-5036.
+\newblock \doi{10.1023/A:1015792204633}.
+
+\bibitem[Rillig and Mummey(2006)]{rillig2006}
+Matthias~C. Rillig and Daniel~L. Mummey.
+\newblock Mycorrhizas and soil structure.
+\newblock \emph{New Phytologist}, 171\penalty0 (1):\penalty0 41--53, 2006.
+\newblock ISSN 1469-8137.
+\newblock \doi{10.1111/j.1469-8137.2006.01750.x}.
+
+\bibitem[Leifheit et~al.(2014)Leifheit, Veresoglou, Lehmann, Morris, and
+  Rillig]{leifheit2014}
+Eva~F. Leifheit, Stavros~D. Veresoglou, Anika Lehmann, E.~Kathryn Morris, and
+  Matthias~C. Rillig.
+\newblock Multiple factors influence the role of arbuscular mycorrhizal fungi
+  in soil aggregation\textemdash a meta-analysis.
+\newblock \emph{Plant and Soil}, 374\penalty0 (1):\penalty0 523--537, January
+  2014.
+\newblock ISSN 1573-5036.
+\newblock \doi{10.1007/s11104-013-1899-2}.
+
+\bibitem[Rillig et~al.(2002)Rillig, Wright, and Eviner]{rillig2002}
+Matthias~C. Rillig, Sara~F. Wright, and Valerie~T. Eviner.
+\newblock The role of arbuscular mycorrhizal fungi and glomalin in soil
+  aggregation: Comparing effects of five plant species.
+\newblock \emph{Plant and Soil}, 238\penalty0 (2):\penalty0 325--333, January
+  2002.
+\newblock ISSN 1573-5036.
+\newblock \doi{10.1023/A:1014483303813}.
+
 \bibitem[Lee and Schmidt(2014)]{lee2014}
 Zarraz~M. Lee and Thomas~M. Schmidt.
 \newblock Bacterial growth efficiency varies in soils under different land
@@ -986,6 +1065,18 @@ Rados{\l}aw Zbytniewski and Boguslaw Buszewski.
   March 2005.
 \newblock ISSN 0960-8524.
 \newblock \doi{10.1016/j.biortech.2004.05.018}.
+
+\bibitem[Barreto et~al.(2009)Barreto, Madari, Maddock, Machado, Torres,
+  Franchini, and Costa]{barreto2009}
+Renata~C. Barreto, Beata~E. Madari, John~E.L. Maddock, Pedro~L.O.A. Machado,
+  Eleno Torres, Julio Franchini, and Adriana~R. Costa.
+\newblock The impact of soil management on aggregation, carbon stabilization
+  and carbon loss as {{CO2}} in the surface layer of a {{Rhodic Ferralsol}} in
+  {{Southern Brazil}}.
+\newblock \emph{Agriculture, Ecosystems and Environment}, 132\penalty0
+  (3-4):\penalty0 243--251, 2009.
+\newblock ISSN 0167-8809.
+\newblock \doi{10.1016/j.agee.2009.04.008}.
 
 \bibitem[Manzoni et~al.(2018)Manzoni, {\v C}apek, Porada, Thurner, Winterdahl,
   Beer, Br{\"u}chert, Frouz, Herrmann, Lindahl, Lyon, {\v S}antr{\r{u}}{\v

@@ -32,9 +32,9 @@
 \usepackage[authoryear, round]{natbib} % author-year citations
 
 % table configurations
-\usepackage{caption} 
+\usepackage{caption}
 \captionsetup[table]{
-	skip=10pt, 
+	skip=10pt,
 %	singlelinecheck=off,
 %	justification=cent
 }
@@ -42,11 +42,11 @@
 
 
 % my macros
-	
+
 % hack for short minus sign
 %	\def\-{\raisebox{.5pt}{-}}
 
-	% intertext for enumarated list 
+	% intertext for enumarated list
 	\newcounter{saveenumerate}
 	\makeatletter
 	\newcommand{\numintertext}[1]{%
@@ -57,24 +57,22 @@
 		\setcounter{enum\romannumeral\the\@enumdepth}{\value{saveenumerate}}%
 	}
 	\makeatother
-	
-	% A text highlighting comment	
+
+	% A text highlighting comment
 	\newcommand{\highlightcomment}[2]{\pdfmarkupcomment[markup=Highlight, color=yellow]{#1}{#2}}
 
-	% quick text coloring 
+	% quick text coloring
 	\newcommand{\myRed}[1]{\textcolor{red}{#1}} % text color red
 	\newcommand{\myGreen}[1]{\textcolor{olive}{#1}} % text color green
 	\newcommand{\hiddenTxt}[1]{\iffalse{#1}\fi} % hidden text
-			
-	
+
+
 	% scaling argument
 	\newcommand{\ScalePreTreated}{1.2}
-	
-	% units 
+
+	% units
 	\newlength{\SpaceAfterUnit}
 	\setlength{\SpaceAfterUnit}{0.3pt}
-	\newcommand{\respunit}{$ mg\ CO_2$\text{-}$C\ kg^{\text{-}1}\ day^{\text{\text{-}}1}$ \hspace*{\SpaceAfterUnit}} 
+	\newcommand{\respunit}{$ mg\ CO_2$\text{-}$C\ kg^{\text{-}1}\ day^{\text{\text{-}}1}$ \hspace*{\SpaceAfterUnit}}
 	\newcommand{\cumrespunit}{$ mg\ CO_2$\text{-}$C * kg^{\text{-}1}$ \hspace*{\SpaceAfterUnit}}
 	\newcommand{\genericunit}{$ mg\ kg^{\text{-}1}$ \hspace*{\SpaceAfterUnit}}
-	
-	
