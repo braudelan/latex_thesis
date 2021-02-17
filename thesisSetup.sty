@@ -23,19 +23,25 @@
 	pdfpagemode=FullScreen,
 	colorlinks=true}
 
-% Abbreviations
-\usepackage[nopostdot,toc,acronym,nomain]{glossaries} %nonumberlist
-\makeglossaries
-\setacronymstyle{long-short}
+% citations
+\usepackage[authoryear, round, sort]{natbib} % author-year 
+\bibliographystyle{plainnat}
 
-\loadglsentries{abbreviations}
+
+
+%% Abbreviations
+%\usepackage[nopostdot,toc,acronym,nomain]{glossaries} %nonumberlist
+%\loadglsentries{abbreviations}
+%\makeglossaries
+%\setacronymstyle{long-short}
+
+
 
 % pdf comments
 \usepackage{pdfcomment}
 
 \usepackage[inline]{enumitem} % allows intertext inside enumerated list(without indent)
 
-\usepackage[authoryear, round]{natbib} % author-year citations
 
 % table configurations
 \usepackage{caption}
